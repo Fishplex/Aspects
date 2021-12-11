@@ -1,15 +1,19 @@
 {
-"entity_action": {
-    "type": "origins:damage",
-    "amount": 2,
-    "source":{
-        "name":"hurt_by_water"
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 2,
+        "source":{
+            "name":"hurt_by_water"
+        },
+        "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">=",
+        "compare_to": 1
+        }
     },
-    "condition": {
-       "type": "origins:fluid_height",
-      "fluid": "minecraft:water",
-      "comparison": ">=",
-      "compare_to": 1
-       }
-    }
+    "name":"Water Damage",
+    "description":"When you touch water, you receive damage."
 }

@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "aspects:cold_biomes",
+        "aspects:frost_walker",
+        "aspects:cryo_primary",
+        "aspects:cryo_secondary"
+    ],
+    "icon": {
+        "item": "minecraft:zombie_head"
+    },
+    "name": "Cryo",
+    "description": "Cold, calculating and precise, Cryo types always get the job done."
+}

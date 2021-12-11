@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "aspects:fleet_footed",
+        "aspects:negate_fall_damage",
+        "aspects:chained",
+        "aspects:windborn"
+    ],
+    "icon": {
+        "item": "minecraft:zombie_head"
+    },
+    "name": "Anemo",
+    "description": "Anemo users are light on their feet, freeform in combat and wanderers by nature."
+}
