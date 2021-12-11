@@ -1,0 +1,6 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:cloud",
+    "frequency": 80,
+    "hidden":true
+}

@@ -1,0 +1,18 @@
+{
+    "type": "origins:conditioned_attribute",
+        "block_condition": {
+            "type": "origins:exposed_to_sky",
+            "inverted": "true"
+        },
+    "modifier": 
+    {
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "addition",
+        "value": -1
+    },
+    
+    "tick_rate": 20,
+    "name":"Chained",
+    "description":"When you aren't exposed to the sky, you become slower in combat."
+
+}

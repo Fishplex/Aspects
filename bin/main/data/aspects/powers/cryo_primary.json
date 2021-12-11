@@ -1,0 +1,34 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 8,
+        "block": false,
+        "entity": true,
+        "shape_type": "visual",
+        "fluid_handling": "any",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action":{
+            "type":"origins:damage",
+            "amount": 6,
+            "source": {
+                "name": "freeze",
+                "bypasses_armor": false
+            }
+        }
+        },
+        "command_at_hit": "particle minecraft:snowflake ~ ~ ~ 0 0 0 0.0 1 normal @a",
+        "command_along_ray": "particle minecraft:snowflake",
+        "command_step": 1,
+        "command_along_ray_only_on_hit": false
+    },
+    "cooldown": 140,
+    "hud_render": {
+        "should_render": true
+    },
+
+    "name":"Freeze Focus",
+    "description":"This is your primary ability. When pressing the respective key, you will fire a ray of ice in the direction you are facing that will deal freeze damage to the target on impact."
+}
+
