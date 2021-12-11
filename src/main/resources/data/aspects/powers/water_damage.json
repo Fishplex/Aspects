@@ -1,0 +1,15 @@
+{
+"entity_action": {
+    "type": "origins:damage",
+    "amount": 2,
+    "source":{
+        "name":"hurt_by_water"
+    },
+    "condition": {
+       "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": ">=",
+      "compare_to": 1
+       }
+    }
+}
