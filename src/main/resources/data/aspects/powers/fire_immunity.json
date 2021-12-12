@@ -9,5 +9,11 @@
     },
 
     "name":"Fire Immunity",
-    "description":"You are immune to fire damage."
+    "description":"You are immune to fire damage.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
 }

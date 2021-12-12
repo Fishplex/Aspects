@@ -13,5 +13,11 @@
     }
 },
 "name":"Homely Strength",
-"description":"You do more damage whilst in the Nether."
+"description":"You do more damage whilst in the Nether.",
+"badges": [
+    {
+        "sprite": "aspects:textures/gui/badge/check.png",
+        "text": "Positive"
+    }
+    ]
 }

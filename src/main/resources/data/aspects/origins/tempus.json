@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "aspects:fleet",
+        "aspects:storm_strength",
+        "aspects:tempus_primary",
+        "aspects:tempus_secondary"
+    ],
+    "icon": {
+        "item": "minecraft:zombie_head"
+    },
+    "name": "Tempus",
+    "description": "Dark minds crackling and churning, Tempus types always have a storm brewing in their heads."
+}

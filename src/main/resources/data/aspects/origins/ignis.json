@@ -3,7 +3,7 @@
         "aspects:hot_biomes",
         "aspects:ignis_primary",
         "aspects:ignis_secondary",
-        "aspects:secondary_ding"
+        "aspects:fire_strength"
     ],
     "icon": {
         "item": "minecraft:zombie_head"

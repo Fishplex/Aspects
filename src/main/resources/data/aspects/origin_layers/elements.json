@@ -1,5 +1,5 @@
 {
-    "order": 1,
+    "order": 0,
     "origins": [
         "aspects:anemo",
         "aspects:hydro",
@@ -8,5 +8,6 @@
         "aspects:ordo",
         "aspects:perditio"
     ],
-    "name": "Aspect"
+    "name": "Aspect",
+    "replace":true
 }

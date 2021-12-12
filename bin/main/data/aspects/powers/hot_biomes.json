@@ -15,5 +15,11 @@
       }
     },
     "name":"Heat Affinity",
-    "description":"You get a decent attack boost in hot biomes."
+    "description":"You get a decent attack boost in hot biomes.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
 }

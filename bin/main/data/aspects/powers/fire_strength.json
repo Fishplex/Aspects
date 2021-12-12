@@ -3,7 +3,7 @@
     "modifier": {
         "attribute": "minecraft:generic.attack_damage",
         "operation": "addition",
-        "value": 0.2
+        "value": 0.4
     },
     "tick_rate": 20,
     "condition": {
@@ -11,5 +11,11 @@
     },
 
     "name":"Heated Strength",
-    "description":"Being on fire grants you an attack damage bonus."
+    "description":"Being on fire grants you an attack damage bonus.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
 }

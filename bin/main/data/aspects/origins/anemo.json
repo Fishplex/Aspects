@@ -3,7 +3,8 @@
         "aspects:fleet_footed",
         "aspects:negate_fall_damage",
         "aspects:chained",
-        "aspects:windborn"
+        "aspects:windborn",
+        "aspects:wise"
     ],
     "icon": {
         "item": "minecraft:zombie_head"
