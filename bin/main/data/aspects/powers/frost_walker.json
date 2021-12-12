@@ -31,5 +31,11 @@
         }
 },
 "name":"Frost Walker",
-"description":"Water beneath you will turn into ice. Deactivates when you are falling, sneaking, or under the water."
+"description":"Water beneath you will turn into ice. Deactivates when you are falling, sneaking, or under the water.",
+"badges": [
+    {
+        "sprite": "aspects:textures/gui/badge/equal.png",
+        "text": "Neutral"
+    }
+    ]
 }

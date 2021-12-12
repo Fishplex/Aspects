@@ -6,7 +6,7 @@
         "aspects:tempus_secondary"
     ],
     "icon": {
-        "item": "minecraft:zombie_head"
+        "item": "minecraft:amethyst_shard"
     },
     "name": "Tempus",
     "description": "Dark minds crackling and churning, Tempus types always have a storm brewing in their heads."

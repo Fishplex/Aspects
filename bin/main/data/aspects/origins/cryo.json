@@ -6,7 +6,7 @@
         "aspects:cryo_secondary"
     ],
     "icon": {
-        "item": "minecraft:zombie_head"
+        "item": "minecraft:snowball"
     },
     "name": "Cryo",
     "description": "Cold, calculating and precise, Cryo types always get the job done."

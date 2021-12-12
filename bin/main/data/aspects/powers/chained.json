@@ -13,6 +13,11 @@
     
     "tick_rate": 20,
     "name":"Chained",
-    "description":"When you aren't exposed to the sky, you become slower in combat."
-
+    "description":"When you aren't exposed to the sky, you become slower in combat.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/cross.png",
+            "text": "Negative"
+        }
+        ]
 }

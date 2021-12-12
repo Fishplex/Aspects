@@ -7,7 +7,7 @@
         "aspects:wise"
     ],
     "icon": {
-        "item": "minecraft:zombie_head"
+        "item": "aspects:anemo_feather"
     },
     "name": "Anemo",
     "description": "Anemo users are light on their feet, freeform in combat and wanderers by nature."

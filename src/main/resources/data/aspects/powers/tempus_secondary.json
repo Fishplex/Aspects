@@ -23,7 +23,7 @@
         "radius": 10,
         "bientity_action": {
             "type": "origins:damage",
-            "amount": 10,
+            "amount": 5,
             "source": {
                 "name": "lightningBolt",
                 "bypasses_armor": true
@@ -37,6 +37,10 @@
     {
         "type": "origins:heal",
         "amount": 6
+    },
+    {
+        "type":"origins:execute_command",
+        "command":"function aspects:raging_gales"
     }
 ]
 },
@@ -44,10 +48,11 @@
         "should_render": true,
         "inverted":true,
         "sprite_location": "origins:textures/gui/resource_bar.png",
-        "bar_index":8
+        "bar_index":3
 
     },
         "key":"key.origins.secondary_active",
-        "cooldown": 1400,
-        "name":"As your secondary ability, you can push enemies away by a few blocks whilst healing yourself and dealing damage to others."
+        "cooldown": 400,
+        "name":"Raging Gales",
+        "description":"As your secondary ability, you can push enemies away by a few blocks whilst healing yourself and dealing damage to others."
     }

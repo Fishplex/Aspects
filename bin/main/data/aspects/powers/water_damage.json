@@ -26,5 +26,11 @@
         ]
     },
     "name":"Water Damage",
-    "description":"When you touch water, you receive damage."
+    "description":"When you touch water, you receive damage.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/cross.png",
+            "text": "Negative"
+        }
+        ]
 }

@@ -25,7 +25,7 @@
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/resource_bar.png",
-        "bar_index":7,
+        "bar_index":2,
         "inverted":true
     },
 

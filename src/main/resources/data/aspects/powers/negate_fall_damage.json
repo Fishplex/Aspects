@@ -288,5 +288,11 @@
         }
     },
     "name":"Negate Falling",
-    "description":"You cannot take fall damage, but the more fall damage that is absorbed by the atmosphere, the more your movement speed will temporarily decrease."
+    "description":"You cannot take fall damage, but the more fall damage that is absorbed by the atmosphere, the more your movement speed will temporarily decrease.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/equal.png",
+            "text": "Neutral"
+        }
+        ]
 }

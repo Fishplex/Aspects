@@ -6,7 +6,7 @@
         "aspects:fire_strength"
     ],
     "icon": {
-        "item": "minecraft:zombie_head"
+        "item": "minecraft:fire_charge"
     },
     "name": "Ignis",
     "description": "Full of energy and power, Ignis types are certainly the life of the party."

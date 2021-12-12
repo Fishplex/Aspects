@@ -11,5 +11,11 @@
      "predicate": "aspects:weather/is_thunderstorm"
     },
     "name":"Storm Strength",
-    "description":"During thunderstorms, you do significantly more damage to others."
+    "description":"During thunderstorms, you do significantly more damage to others.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
 }

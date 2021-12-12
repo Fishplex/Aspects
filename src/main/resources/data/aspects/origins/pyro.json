@@ -7,7 +7,7 @@
         "aspects:flameborn"
     ],
     "icon": {
-        "item": "minecraft:zombie_head"
+        "item": "aspects:pyro_fire"
     },
     "name": "Pyro",
     "description": "fire go weeee"
