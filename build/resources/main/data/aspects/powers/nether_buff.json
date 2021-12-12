@@ -1,0 +1,23 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 0.4
+    },
+"condition": {
+    "type": "origins:biome",
+    "condition": {
+        "type": "origins:category",
+        "category": "nether"
+    }
+},
+"name":"Homely Strength",
+"description":"You do more damage whilst in the Nether.",
+"badges": [
+    {
+        "sprite": "aspects:textures/gui/badge/check.png",
+        "text": "Positive"
+    }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "aspects:fire_immunity",
+        "aspects:nether_buff",
+        "aspects:water_damage",
+        "aspects:lava_vision",
+        "aspects:flameborn"
+    ],
+    "icon": {
+        "item": "aspects:pyro_fire"
+    },
+    "name": "Pyro",
+    "description": "fire go weeee"
+}

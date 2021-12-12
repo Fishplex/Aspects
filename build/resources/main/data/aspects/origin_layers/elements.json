@@ -1,0 +1,13 @@
+{
+    "order": -1,
+    "origins": [
+        "aspects:anemo",
+        "aspects:hydro",
+        "aspects:geo",
+        "aspects:pyro",
+        "aspects:ordo",
+        "aspects:perditio"
+    ],
+    "name": "Aspect",
+    "replace":true
+}

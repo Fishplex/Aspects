@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "aspects:hot_biomes",
+        "aspects:ignis_primary",
+        "aspects:ignis_secondary",
+        "aspects:fire_strength"
+    ],
+    "icon": {
+        "item": "minecraft:fire_charge"
+    },
+    "name": "Ignis",
+    "description": "Full of energy and power, Ignis types are certainly the life of the party."
+}

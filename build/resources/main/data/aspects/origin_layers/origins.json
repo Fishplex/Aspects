@@ -1,0 +1,48 @@
+{
+    "order": 0,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "aspects:pyro",
+                "layer": "aspects:elements"
+            },
+            "origins": [
+                "aspects:human",
+                "aspects:magmus",
+                "aspects:ignis",
+                "aspects:navitas"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "aspects:hydro",
+                "layer": "aspects:elements"
+            },
+            "origins": [
+                "aspects:cryo",
+                "aspects:human",
+                "aspects:altum",
+                "aspects:aquatillis"
+            ]
+        },
+        {
+            "condition": {
+                "type":"origins:origin",
+                "origin":"aspects:anemo",
+                "layer":"aspects:elements"
+            },
+            "origins": [
+                "aspects:human",
+                "aspects:tempus",
+                "aspects:avis",
+                "aspects:sophos",
+                "icarus:icarae"
+            ]
+            }
+            ],
+
+    "name": "Type",
+    "replace":true
+}

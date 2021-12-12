@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.fabricmc.fishplex.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "AspectsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

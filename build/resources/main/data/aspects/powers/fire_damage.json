@@ -1,0 +1,24 @@
+{
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 2,
+        "source": {
+            "name": "onFire",
+            "fire": true,
+            "bypasses_armor": true
+        }
+    },
+    "damage_condition": {
+        "type": "origins:fire"
+    },
+    "cooldown": 20,
+    "name":"Evaporation",
+    "description":"Fire hurts you a lot more than it normally would.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/cross.png",
+            "text": "Negative"
+        }
+        ]
+}

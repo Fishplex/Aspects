@@ -1,0 +1,21 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:gain_air",
+        "value": 200
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+
+"name":"Gills",
+"description":"You can breathe underwater.",
+"badges": [
+    {
+        "sprite": "aspects:textures/gui/badge/check.png",
+        "text": "Positive"
+    }
+    ]
+}

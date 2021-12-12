@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "aspects:water_breathing",
+        "aspects:constitution",
+        "aspects:fire_damage",
+        "aspects:waterborn"
+    ],
+    "icon": {
+        "item": "aspects:hydro_kelp"
+    },
+    "name": "Hydro",
+    "description": "Fluid and ever-changing, Hydro users are flexible and aware of the intent behind the actions of their enemies in order to better defy them."
+}
