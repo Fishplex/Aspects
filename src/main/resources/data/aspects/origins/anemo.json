@@ -4,11 +4,13 @@
         "aspects:negate_fall_damage",
         "aspects:chained",
         "aspects:windborn",
-        "aspects:wise"
+        "aspects:wise",
+        "aspects:start",
+        "aspects:anemo_team"
     ],
     "icon": {
         "item": "aspects:anemo_feather"
     },
-    "name": "Anemo",
+    "name": "§aAnemo",
     "description": "Anemo users are light on their feet, freeform in combat and wanderers by nature."
 }

@@ -8,7 +8,6 @@
                 "layer": "aspects:elements"
             },
             "origins": [
-                "aspects:human",
                 "aspects:magmus",
                 "aspects:ignis",
                 "aspects:navitas"
@@ -34,7 +33,6 @@
                 "layer":"aspects:elements"
             },
             "origins": [
-                "aspects:human",
                 "aspects:tempus",
                 "aspects:avis"
             ]
@@ -46,11 +44,30 @@
                     "layer":"aspects:elements"
                 },
                 "origins": [
-                    "aspects:human",
                     "aspects:dendro",
                     "idkarockthingmining"
                 ]
-                }
+                },
+                {
+                    "condition": {
+                        "type":"origins:origin",
+                        "origin":"aspects:perditio",
+                        "layer":"aspects:elements"
+                    },
+                    "origins": [
+                        "aspects:luna"
+                    ]
+                    },
+                    {
+                        "condition": {
+                            "type":"origins:origin",
+                            "origin":"aspects:ordo",
+                            "layer":"aspects:elements"
+                        },
+                        "origins": [
+                            "aspects:solus"
+                        ]
+                        }
             ],
 
     "name": "Type",

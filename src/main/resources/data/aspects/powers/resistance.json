@@ -6,5 +6,11 @@
         "operation": "addition"
     },
     "name":"Resistance",
-    "description":"You have more natural armour points than other aspect users."
+    "description":"You have more natural armour points than other aspect users.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
 }

@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2021-12-13 17:24:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2021-12-13 17:24:35 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 2860
+}

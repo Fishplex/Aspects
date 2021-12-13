@@ -8,7 +8,13 @@
         "type": "origins:name",
         "name":"magic"
         },
-    "cooldown": 1,
+    "cooldown": 0.5,
     "name":"Poison Ivy",
-    "description":"You cannot receive the poison status effect."
+    "description":"Poison damage doesn't hurt as much.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
 }

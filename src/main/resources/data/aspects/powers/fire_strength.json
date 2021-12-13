@@ -3,7 +3,7 @@
     "modifier": {
         "attribute": "minecraft:generic.attack_damage",
         "operation": "addition",
-        "value": 2
+        "value": 3
     },
     "tick_rate": 20,
     "condition": {

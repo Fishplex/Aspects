@@ -14,5 +14,11 @@
     },
     "cooldown": 1,
     "name":"Crystalline",
-    "description":"You take more damage from explosions."
+    "description":"You take more damage from explosions.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/cross.png",
+            "text": "Negative"
+        }
+        ]
 }

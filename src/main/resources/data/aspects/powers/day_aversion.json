@@ -3,12 +3,18 @@
     "modifier": {
         "attribute": "minecraft:generic.attack_damage",
         "operation": "addition",
-        "value": -2
+        "value": -0.05
     },
     "tick_rate": 20,
     "condition": {
         "type": "origins:daytime"
     },
     "name":"Day Aversion",
-    "description":"You are weakened at daytime."
+    "description":"You are weakened at daytime.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/cross.png",
+            "text": "Negative"
+        }
+        ]
 }

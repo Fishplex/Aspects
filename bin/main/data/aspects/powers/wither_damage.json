@@ -1,0 +1,19 @@
+{
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:damage",
+        "amount": 0.05,
+        "source": {
+            "name": "wither",
+            "bypasses_armor": true
+        }
+    },
+    "name":"Wither",
+    "description":"Your attacks do wither damage.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}

@@ -5,7 +5,9 @@
         "aspects:darkness_damage",
         "aspects:night_aversion",
         "aspects:holy",
-        "aspects:lightborn"
+        "aspects:lightborn",
+        "aspects:start",
+        "aspects:ordo_team"
     ],
     "icon": {
         "item": "aspects:ordo_star"

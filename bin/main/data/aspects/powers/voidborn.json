@@ -1,16 +1,6 @@
 {
-    "type": "origins:multiple",
-    "transparent": {
-        "type": "origins:model_color",
-        "red": 0.2,
-        "green": 0.2,
-        "blue":0.2,
-        "alpha": 0.7
-    },
-    "particle": {
             "type": "origins:particle",
             "particle": "minecraft:mycelium",
-            "frequency": 20
-    },
-"hidden":true
+            "frequency": 20,
+            "hidden":true
 }

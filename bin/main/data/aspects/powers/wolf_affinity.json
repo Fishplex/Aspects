@@ -1,0 +1,23 @@
+{
+    "type": "origins:multiple",
+    "tame_wolf":
+    {
+        "type": "origins:action_on_entity_use",
+        "bientity_action":
+        {
+            "type": "origins:tame"
+        },
+        "condition":
+        {
+            "type": "origins:sneaking"
+        }
+    },
+    "name":"Wolf Affinity",
+    "description":"You can now tame wolves using shift + use. Weird, huh?",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}

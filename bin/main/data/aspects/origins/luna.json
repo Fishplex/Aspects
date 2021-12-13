@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "aspects:full_moon",
+        "aspects:nightwalker",
+        "aspects:wolf_affinity",
+        "aspects:luna_primary",
+        "aspects:luna_secondary",
+        "aspects:invisibility"
+    ],
+    "icon": {
+        "item": "minecraft:lily_of_the_valley"
+    },
+    "name": "§7Luna",
+    "description": "Quiet, spectral beings, Luna types possess great magical power that shifts based on the phase of the moon."
+}

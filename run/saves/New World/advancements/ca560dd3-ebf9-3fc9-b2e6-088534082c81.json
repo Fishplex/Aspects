@@ -1,0 +1,28 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-12-13 15:47:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2021-12-13 15:47:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:creeper": "2021-12-13 15:47:46 -0400"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2021-12-13 15:44:23 -0400",
+      "minecraft:plains": "2021-12-13 15:44:49 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 2860
+}

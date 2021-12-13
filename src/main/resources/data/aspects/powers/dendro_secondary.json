@@ -4,14 +4,16 @@
         "type": "origins:execute_command",
         "command": "function aspects:summon_golems"
     },
-    "cooldown": 2400,
+    "cooldown": 3400,
     "hud_render": {
         "should_render": true,
-        "inverted":true
+        "inverted":true,
+        "sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index":8
     },
     "key": {
         "key": "key.origins.secondary_active"
     },
     "name":"Friendly Assistance",
-    "description":"As your secondary ability, you can spawn in two Iron Golems to help you fight off enemies."
+    "description":"As your secondary ability, you can spawn in an Iron Golem to help you fight off enemies."
 }

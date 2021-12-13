@@ -1,0 +1,10 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "aspects:sun_bar",
+        "change": -0.5
+    },
+    "interval": 150,
+    "hidden":true
+    }

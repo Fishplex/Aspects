@@ -1,5 +1,5 @@
-[11:00:14] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.18 with Fabric Loader 0.12.10
-[11:00:15] [main/INFO] (FabricLoader) Loading 61 mods:
+[17:54:34] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.18 with Fabric Loader 0.12.10
+[17:54:34] [main/INFO] (FabricLoader) Loading 61 mods:
 	- apoli 2.2.0
 	- aspects ${version}
 	- calio 1.4.2
@@ -61,13 +61,13 @@
 	- origins 1.3.0
 	- playerabilitylib 1.3.0
 	- reach-entity-attributes 2.1.1
-[11:00:15] [main/WARN] (FabricLoader/Metadata) Mod `aspects` (${version}) does not respect SemVer - comparison support is limited.
-[11:00:15] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/Users/adellanicholson/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/7a4ca9d54d9ae564dea0363d668036a8420ed9b8/sponge-mixin-0.10.7+mixin.0.8.4.jar Service=Knot/Fabric Env=CLIENT
-[11:00:15] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[11:00:15] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[11:00:20] [main/WARN] (FabricLoader/Mixin) @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:client.WorldChunkMixin::handler$zjg000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[11:00:21] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:00:23] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[17:54:35] [main/WARN] (FabricLoader/Metadata) Mod `aspects` (${version}) does not respect SemVer - comparison support is limited.
+[17:54:35] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/Users/adellanicholson/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/7a4ca9d54d9ae564dea0363d668036a8420ed9b8/sponge-mixin-0.10.7+mixin.0.8.4.jar Service=Knot/Fabric Env=CLIENT
+[17:54:35] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[17:54:35] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[17:54:40] [main/WARN] (FabricLoader/Mixin) @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:client.WorldChunkMixin::handler$zma000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[17:54:42] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:54:42] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.2.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:132) ~[authlib-3.2.38.jar:?]
@@ -89,144 +89,111 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.2.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:113) ~[authlib-3.2.38.jar:?]
 	... 13 more
-[11:00:23] [Render thread/INFO] (Minecraft) Setting user: Player986
-[11:00:23] [Render thread/INFO] (Apoli) Apoli 2.2.0 has initialized. Ready to power up your game!
-[11:00:23] [Render thread/INFO] (aspects) Hello from Aspects :D
-[11:00:23] [Render thread/INFO] (Origins) Origins 1.3.0 is initializing. Have fun!
-[11:00:23] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[11:00:24] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.1 build 12
-[11:00:25] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Mod Menu, Apoli, Fabric Rendering (v0), Fabric Biome API (v1), Fabric Renderer API (v1), Pal, Fabric Game Test API (v1), Fabric API Base, Cloth Config v6, Fabric Transfer API (v1), Fabric Content Registries (v0), Fabric Item Groups (v0), Fabric Rendering Fluids (v1), Fabric API, Fabric Key Binding API (v1), Aspects, Fabric Entity Events (v1), Fabric BlockRenderLayer Registration (v1), Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Calio, Fabric Renderer Registries (v1), Fabric Screen Handler API (v1), Fabric Game Rule API (v1), Fabric Rendering (v1), Fabric Structure API (v1), Fabric Dimensions API (v1), Fabric Registry Sync (v0), Fabric Mining Level API (v1), Fabric Commands (v0), Reach Entity Attributes, Fabric Networking API (v1), Fabric Mining Levels (v0), Fabric Networking (v0), Fabric Lifecycle Events (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Key Bindings (v0), Fabric Textures (v0), Fabric Containers (v0), Fabric Tag Extensions (v0), Fabric Renderer - Indigo, Fabric Loader, Fabric API Lookup API (v1), Origins, Fabric Item API (v1), Fabric Command API (v1), Fabric Rendering Data Attachment (v1), Fabric Models (v0), Fabric Object Builders (v0), Fabric Events Interaction (v0), Fabric Loot Tables (v1), Fabric Particles (v1), Fabric Events Lifecycle (v0), Fabric Object Builder API (v1), Fabric Tool Attribute API (v1))
-[11:00:25] [Render thread/INFO] (aspects) Hello from Aspects! :D
-[11:00:27] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[11:00:28] [Render thread/INFO] (Minecraft) OpenAL initialized on device CoreAudio Default
-[11:00:28] [Render thread/INFO] (Minecraft) Sound engine started
-[11:00:28] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[11:00:29] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[11:00:29] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[11:00:29] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[11:00:29] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[11:00:29] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[11:00:29] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[11:00:30] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[11:00:30] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[11:00:30] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[11:00:30] [Render thread/INFO] (aspects) Hello from Aspects! :D
-[11:00:32] [Render thread/INFO] (aspects) Hello from Aspects! :D
-[11:00:36] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:00:36] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:00:36] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:00:36] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:00:36] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:00:36] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Apoli, Fabric Game Test API (v1), Aspects, Origins, Fabric Tool Attribute API (v1))
-[11:00:36] [Worker-Main-16/ERROR] (MultiJsonDataLoader) Couldn't parse data file aspects:groundtied from aspects:powers/groundtied.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:505) ~[minecraft-project-@-mapped.jar:?]
-	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:542) ~[minecraft-project-@-mapped.jar:?]
-	at io.github.apace100.calio.data.MultiJsonDataLoader.lambda$prepare$1(MultiJsonDataLoader.java:62) ~[calio-v1.4.2.jar:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
-	at io.github.apace100.calio.data.MultiJsonDataLoader.prepare(MultiJsonDataLoader.java:48) ~[calio-v1.4.2.jar:?]
-	at io.github.apace100.calio.data.MultiJsonDataLoader.prepare(MultiJsonDataLoader.java:24) ~[calio-v1.4.2.jar:?]
-	at net.minecraft.resource.SinglePreparationResourceReloader.method_18791(SinglePreparationResourceReloader.java:11) ~[minecraft-project-@-mapped.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.8.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.8.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.8.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:703) ~[gson-2.8.8.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:701) ~[gson-2.8.8.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:908) ~[gson-2.8.8.jar:?]
-	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:503) ~[minecraft-project-@-mapped.jar:?]
-	... 13 more
-[11:00:36] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[11:00:36] [Render thread/INFO] (Minecraft) Loaded 1143 advancements
-[11:00:36] [Render thread/ERROR] (Apoli) There was a problem reading power file aspects:darkness_damage (skipping): Error reading data field at entity_action.source: JSON requires field: source
-[11:00:36] [Render thread/ERROR] (Apoli) There was a problem reading power file aspects:positive_influence (skipping): Error reading data field at entity_action.chance: JSON requires field: chance
-[11:00:36] [Render thread/ERROR] (Apoli) There was a problem reading power file aspects:flower_regen (skipping): Error reading data field at condition.block_condition.block: Identifier "minecraft:flower" was not registered in registry "minecraft:block".
-[11:00:36] [Render thread/INFO] (Apoli) Finished loading powers from data files. Registry contains 139 powers.
-[11:00:36] [Render thread/ERROR] (Origins) Origin "aspects:dendro" contained unregistered power: "aspects:flower_regen"
-[11:00:36] [Render thread/ERROR] (Origins) Origin "aspects:dendro" contained unregistered power: "aspects:suspicious_substance"
-[11:00:36] [Render thread/ERROR] (Origins) Origin "aspects:ordo" contained unregistered power: "aspects:holy_light"
-[11:00:36] [Render thread/ERROR] (Origins) Origin "aspects:ordo" contained unregistered power: "aspects:positive_influence"
-[11:00:36] [Render thread/ERROR] (Origins) Origin "aspects:ordo" contained unregistered power: "aspects:darkness_damage"
-[11:00:36] [Render thread/INFO] (Origins) Finished loading origins from data files. Registry contains 21 origins.
-[11:00:36] [Render thread/INFO] (Origins) Trying to read layer file: aspects:elements
-[11:00:36] [Render thread/INFO] (Origins) Trying to read layer file: origins:origin
-[11:00:36] [Render thread/INFO] (Origins) Trying to read layer file: aspects:origins
-[11:00:36] [Render thread/INFO] (Origins) Finished loading origin layers from data files. Read 3 layers.
-[11:00:37] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 61 new biomes in 2.281 ms
-[11:00:39] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:00:39] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.18
-[11:00:39] [Server thread/INFO] (Minecraft) Generating keypair
-[11:00:40] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[11:00:43] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:43] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:43] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:43] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:43] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:43] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:43] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:43] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:44] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:44] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 3%
-[11:00:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 16%
-[11:00:52] [Render thread/INFO] (Minecraft) Preparing spawn area: 34%
-[11:00:52] [Render thread/INFO] (Minecraft) Preparing spawn area: 55%
-[11:00:53] [Render thread/INFO] (Minecraft) Preparing spawn area: 69%
-[11:00:53] [Render thread/INFO] (Minecraft) Preparing spawn area: 86%
-[11:00:53] [Render thread/INFO] (Minecraft) Time elapsed: 13690 ms
-[11:00:54] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[11:00:54] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[11:00:59] [Server thread/INFO] (Minecraft) Player986[local:E:840bfa1c] logged in with entity id 168 at (18.943051278628204, 70.0, -31.69999998807907)
-[11:00:59] [Server thread/INFO] (Minecraft) Player986 joined the game
-[11:00:59] [Server thread/INFO] (Minecraft) Skipping update from removed player 'ServerPlayerEntity['Player986'/168, l='ServerLevel[New World]', x=18.94, y=70.00, z=-31.70, removed=KILLED]'
-[11:00:59] [Render thread/INFO] (Minecraft) Loaded 0 advancements
-[11:01:00] [Server thread/INFO] (Minecraft) Skipping update from removed player 'ServerPlayerEntity['Player986'/168, l='ServerLevel[New World]', x=18.94, y=70.00, z=-31.70, removed=KILLED]'
-[11:01:00] [Server thread/INFO] (Minecraft) Skipping update from removed player 'ServerPlayerEntity['Player986'/168, l='ServerLevel[New World]', x=18.94, y=70.00, z=-31.70, removed=KILLED]'
-[11:01:06] [Server thread/INFO] (Minecraft) [Player986: Set own game mode to Creative Mode]
-[11:01:06] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Creative Mode
-[11:01:17] [Server thread/INFO] (Minecraft) [Player986: Set own game mode to Survival Mode]
-[11:01:17] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Survival Mode
-[11:01:19] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[11:01:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[11:01:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[11:01:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[11:01:25] [Server thread/INFO] (Origins) Player Player986 chose Origin: aspects:geo, for layer: aspects:elements
-[11:01:30] [Server thread/INFO] (Origins) Player Player986 chose Origin: aspects:dendro, for layer: aspects:origins
-[11:01:31] [Server thread/INFO] (Origins) Player Player986 chose Origin: origins:human, for layer: origins:origin
-[11:01:42] [Server thread/WARN] (Minecraft) Unable to add mob to team "Dendro" (that team probably doesn't exist)
-[11:02:03] [Server thread/INFO] (Minecraft) Player986 was blown up by Creeper
-[11:02:03] [Render thread/INFO] (Minecraft) [CHAT] Player986 was blown up by Creeper
-[11:02:03] [Render thread/INFO] (Minecraft) Loaded 21 advancements
-[11:02:20] [Render thread/INFO] (Minecraft) Stopping!
-[11:02:21] [Server thread/INFO] (Minecraft) Player986 lost connection: Disconnected
-[11:02:21] [Server thread/INFO] (Minecraft) Player986 left the game
-[11:02:21] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[11:02:21] [Server thread/INFO] (Minecraft) Stopping server
-[11:02:21] [Server thread/INFO] (Minecraft) Saving players
-[11:02:21] [Server thread/INFO] (Minecraft) Saving worlds
-[11:02:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[11:02:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[11:02:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[11:02:21] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
-[11:02:21] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:02:21] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:02:21] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[17:54:42] [Render thread/INFO] (Minecraft) Setting user: Player340
+[17:54:42] [Render thread/INFO] (aspects) Hello from Aspects :D
+[17:54:43] [Render thread/INFO] (Apoli) Apoli 2.2.0 has initialized. Ready to power up your game!
+[17:54:43] [Render thread/INFO] (Origins) Origins 1.3.0 is initializing. Have fun!
+[17:54:43] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[17:54:44] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.1 build 12
+[17:54:45] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Rendering (v1), Calio, Fabric Crash Report Info (v1), Fabric Game Test API (v1), Fabric Content Registries (v0), Fabric Key Bindings (v0), Fabric Rendering (v0), Fabric Renderer Registries (v1), Fabric Resource Loader (v0), Fabric Mining Levels (v0), Fabric Dimensions API (v1), Fabric Key Binding API (v1), Fabric Screen Handler API (v1), Fabric Data Generation API (v1), Fabric Mining Level API (v1), Pal, Fabric Rendering Fluids (v1), Fabric Textures (v0), Fabric Biome API (v1), Fabric Structure API (v1), Fabric Particles (v1), Aspects, Fabric Game Rule API (v1), Fabric Entity Events (v1), Apoli, Fabric Containers (v0), Fabric Networking (v0), Fabric Registry Sync (v0), Fabric Command API (v1), Fabric Networking API (v1), Fabric Renderer - Indigo, Fabric Screen API (v1), Fabric API Lookup API (v1), Mod Menu, Fabric Events Interaction (v0), Fabric Object Builder API (v1), Fabric Rendering Data Attachment (v1), Fabric API, Reach Entity Attributes, Fabric Commands (v0), Fabric Tool Attribute API (v1), Cloth Config v6, Fabric Item API (v1), Fabric API Base, Fabric Events Lifecycle (v0), Fabric Loader, Fabric Models (v0), Fabric Transfer API (v1), Fabric Object Builders (v0), Fabric Lifecycle Events (v1), Fabric Item Groups (v0), Origins, Fabric Loot Tables (v1), Fabric Renderer API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Tag Extensions (v0))
+[17:54:45] [Render thread/INFO] (aspects) Hello from Aspects! :D
+[17:54:46] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[17:54:49] [Render thread/INFO] (Minecraft) OpenAL initialized on device CoreAudio Default
+[17:54:49] [Render thread/INFO] (Minecraft) Sound engine started
+[17:54:49] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[17:54:49] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[17:54:49] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:54:49] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:54:49] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[17:54:49] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:54:49] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:54:51] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[17:54:51] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:54:51] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:54:51] [Render thread/INFO] (aspects) Hello from Aspects! :D
+[17:55:04] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:55:04] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:55:04] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:55:04] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:55:04] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:55:04] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Game Test API (v1), Aspects, Apoli, Fabric Tool Attribute API (v1), Origins)
+[17:55:04] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[17:55:05] [Render thread/INFO] (Minecraft) Loaded 1143 advancements
+[17:55:05] [Render thread/INFO] (Apoli) Finished loading powers from data files. Registry contains 166 powers.
+[17:55:05] [Render thread/ERROR] (Origins) Origin "aspects:solus" contained unregistered power: "aspects:holy_flame"
+[17:55:05] [Render thread/ERROR] (Origins) Origin "aspects:dendro" contained unregistered power: "aspects:suspicious_substance"
+[17:55:05] [Render thread/INFO] (Origins) Finished loading origins from data files. Registry contains 23 origins.
+[17:55:05] [Render thread/INFO] (Origins) Trying to read layer file: aspects:elements
+[17:55:05] [Render thread/INFO] (Origins) Trying to read layer file: origins:origin
+[17:55:05] [Render thread/INFO] (Origins) Trying to read layer file: aspects:origins
+[17:55:05] [Render thread/INFO] (Origins) Finished loading origin layers from data files. Read 3 layers.
+[17:55:05] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 61 new biomes in 1.394 ms
+[17:55:06] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:55:06] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.18
+[17:55:06] [Server thread/INFO] (Minecraft) Generating keypair
+[17:55:06] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[17:55:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:55:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:55:09] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:55:09] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:55:09] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:55:09] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:55:09] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:55:09] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[17:55:10] [Render thread/INFO] (Minecraft) Preparing spawn area: 29%
+[17:55:11] [Render thread/INFO] (Minecraft) Preparing spawn area: 31%
+[17:55:11] [Render thread/INFO] (Minecraft) Preparing spawn area: 47%
+[17:55:11] [Render thread/INFO] (Minecraft) Preparing spawn area: 75%
+[17:55:12] [Render thread/INFO] (Minecraft) Time elapsed: 5939 ms
+[17:55:12] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[17:55:12] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[17:55:12] [Server thread/INFO] (Minecraft) Player340[local:E:1a35f668] logged in with entity id 168 at (-15.044990261906532, 65.0, -56.05896747426518)
+[17:55:12] [Server thread/INFO] (Minecraft) Player340 joined the game
+[17:55:13] [Render thread/INFO] (Minecraft) Loaded 0 advancements
+[17:55:22] [Server thread/INFO] (Minecraft) [Player340: Gave 1 [Orb of Origin] to Player340]
+[17:55:22] [Render thread/INFO] (Minecraft) [CHAT] Gave 1 [Orb of Origin] to Player340
+[17:55:23] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[17:55:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:55:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:55:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:55:24] [Server thread/INFO] (Origins) Player Player340 chose Origin: aspects:pyro, for layer: aspects:elements
+[17:55:27] [Server thread/INFO] (Origins) Player Player340 chose Origin: aspects:ignis, for layer: aspects:origins
+[17:55:28] [Server thread/INFO] (Origins) Player  chose Origin: origins:human, for layer: origins:origin
+[17:55:28] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[17:55:28] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:55:28] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:55:28] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:55:33] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[17:55:41] [Render thread/INFO] (Minecraft) [CHAT] The nearest minecraft:snowy_plains is at [512, ~, -640] (790 blocks away)
+[17:55:43] [Server thread/INFO] (Minecraft) [Player340: Teleported Player340 to 512.500000, 67.000000, -639.500000]
+[17:55:43] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player340 to 512.500000, 67.000000, -639.500000
+[17:55:46] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2831ms or 56 ticks behind
+[17:55:46] [Server thread/WARN] (Minecraft) Player340 moved wrongly!
+[17:55:46] [Server thread/WARN] (Minecraft) Player340 moved wrongly!
+[17:55:47] [Server thread/WARN] (Minecraft) Player340 moved wrongly!
+[17:55:47] [Server thread/WARN] (Minecraft) Player340 moved wrongly!
+[17:55:49] [Server thread/INFO] (Minecraft) [Player340: Set own game mode to Spectator Mode]
+[17:55:49] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Spectator Mode
+[17:55:56] [Server thread/INFO] (Minecraft) [Player340: Set own game mode to Survival Mode]
+[17:55:56] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Survival Mode
+[17:56:16] [Server thread/INFO] (Minecraft) Villager VillagerEntity['Villager'/658, l='ServerLevel[New World]', x=624.72, y=98.56, z=-571.37] died, message: 'Villager suffocated in a wall'
+[17:56:16] [Render thread/INFO] (Minecraft) Villager VillagerEntity['Villager'/658, l='ClientLevel', x=624.72, y=98.56, z=-571.37] died, message: 'Villager died'
+[17:56:25] [Render thread/INFO] (Minecraft) Loaded 7 advancements
+[17:56:29] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[17:56:30] [Server thread/INFO] (Minecraft) Player340 took a bath for too long
+[17:56:30] [Render thread/INFO] (Minecraft) [CHAT] Player340 took a bath for too long
+[17:56:31] [Server thread/INFO] (Minecraft) Skipping update from removed player 'ServerPlayerEntity['Player340'/168, l='ServerLevel[New World]', x=480.62, y=60.40, z=-649.70, removed=KILLED]'
+[17:56:32] [Render thread/INFO] (Minecraft) Stopping!
+[17:56:32] [Server thread/INFO] (Minecraft) Player340 lost connection: Disconnected
+[17:56:32] [Server thread/INFO] (Minecraft) Player340 left the game
+[17:56:32] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[17:56:32] [Server thread/INFO] (Minecraft) Stopping server
+[17:56:32] [Server thread/INFO] (Minecraft) Saving players
+[17:56:32] [Server thread/INFO] (Minecraft) Saving worlds
+[17:56:32] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:56:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:56:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:56:33] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[17:56:33] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:56:33] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:56:33] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved

@@ -4,11 +4,14 @@
         "aspects:nether_buff",
         "aspects:water_damage",
         "aspects:lava_vision",
-        "aspects:flameborn"
+        "aspects:flameborn",
+        "aspects:start",
+        "aspects:melt",
+        "aspects:pyro_team"
     ],
     "icon": {
         "item": "aspects:pyro_fire"
     },
-    "name": "Pyro",
+    "name": "§cPyro",
     "description": "Pyro users are certainly lively. The rebels of the group, they are always brimming with new ideas and drive for adventure."
 }

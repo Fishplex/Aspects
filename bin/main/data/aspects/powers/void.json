@@ -27,5 +27,11 @@
     },
     "cooldown": 1,
     "name":"Void Teleport",
-    "description":"When you fall into the void, you will be teleported high up into the air in the center of the overworld regardless of the dimension you are currently in."
+    "description":"When you fall into the void, you will be teleported high up into the air in the center of the overworld regardless of the dimension you are currently in.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/equal.png",
+            "text": "Neutral"
+        }
+        ]
 }
