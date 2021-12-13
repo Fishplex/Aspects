@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "aspects:heavy_as_stone",
+        "aspects:resistance",
+        "aspects:explosion_damage",
+        "aspects:earthborn",
+        "aspects:deepdweller"
+    ],
+    "icon": {
+        "item": "aspects:geo_diamond"
+    },
+    "name": "Geo",
+    "description": "Down-to-earth and grounded, Geo users are all about stability and functionality."
+}

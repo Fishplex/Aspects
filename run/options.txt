@@ -20,14 +20,14 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.0
+fov:0.025
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.5
 renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
-guiScale:0
+guiScale:4
 particles:0
 maxFps:120
 difficulty:2
@@ -111,7 +111,7 @@ key_key.origins.primary_active:key.keyboard.g
 key_key.origins.secondary_active:key.keyboard.h
 key_key.origins.view_origin:key.keyboard.o
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

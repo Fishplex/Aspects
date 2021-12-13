@@ -1,0 +1,6 @@
+{
+    "type": "origins:entity_group",
+    "group": "undead",
+    "name":"Undead",
+    "description":"You are undead. You don't burn in the sun, but you have the other side effects of being deceased, such as reversed health and damage potions."
+}

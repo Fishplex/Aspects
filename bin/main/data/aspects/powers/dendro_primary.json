@@ -1,0 +1,22 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:spawn_effect_cloud",
+        "radius": 10.0,
+        "wait_time": 40,
+        "effect": {
+            "effect": "minecraft:poison",
+            "amplifier": 2,
+            "duration": 20
+        }
+    },
+    "cooldown": 500,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location":"origins:textures/gui/resource_bar.png",
+        "bar_index":8,
+        "inverted":true
+    },
+    "name":"Poison Cloud",
+    "description":"As your primary ability, you can spawn a poison cloud around you."
+}

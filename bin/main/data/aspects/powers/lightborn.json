@@ -1,0 +1,14 @@
+{
+    "type": "origins:self_glow",
+    "bientity_condition": {
+        "type": "origins:can_see"
+    },
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "use_teams": false,
+    "red": 0.0,
+    "green": 0.0,
+    "blue": 0.0,
+    "hidden":true
+}

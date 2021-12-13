@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "aspects:void",
+        "aspects:undead",
+        "aspects:night_strength",
+        "aspects:day_aversion",
+        "aspects:voidborn"
+    ],
+    "icon": {
+        "item": "aspects:perditio_bone"
+    },
+    "name": "Perditio",
+    "description": "Shrouded in darkness and mystery, Perditio users are unique magical beings said to be derived from the void."
+}

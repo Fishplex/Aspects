@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "value": -0.0002,
+        "operation": "addition"
+    },
+    "name":"Heavy As Stone",
+    "description":"Though you may be sturdy and resistant, you are a little bit slower than other aspects."
+}

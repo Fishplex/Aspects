@@ -1,0 +1,14 @@
+{
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:poison"
+    },
+    "damage_condition": {
+        "type": "origins:name",
+        "name":"magic"
+        },
+    "cooldown": 1,
+    "name":"Poison Ivy",
+    "description":"You cannot receive the poison status effect."
+}

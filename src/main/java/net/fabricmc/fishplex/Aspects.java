@@ -16,6 +16,9 @@ public class Aspects implements ModInitializer {
 	public static final Item ANEMO_FEATHER = new Item(new FabricItemSettings());
 	public static final Item PYRO_FIRE = new Item(new FabricItemSettings());
 	public static final Item HYDRO_KELP = new Item(new FabricItemSettings());
+	public static final Item GEO_DIAMOND = new Item(new FabricItemSettings());
+	public static final Item ORDO_STAR = new Item(new FabricItemSettings());
+	public static final Item PERDITIO_BONE = new Item(new FabricItemSettings());
 	public static final Logger LOGGER = LogManager.getLogger("aspects");
  
 		@Override
@@ -23,6 +26,9 @@ public class Aspects implements ModInitializer {
 			Registry.register(Registry.ITEM, new Identifier("aspects", "anemo_feather"), ANEMO_FEATHER);
 			Registry.register(Registry.ITEM, new Identifier("aspects", "pyro_fire"), PYRO_FIRE);
 			Registry.register(Registry.ITEM, new Identifier("aspects", "hydro_kelp"), HYDRO_KELP);
+			Registry.register(Registry.ITEM, new Identifier("aspects", "geo_diamond"), GEO_DIAMOND);
+			Registry.register(Registry.ITEM, new Identifier("aspects", "ordo_star"), ORDO_STAR);
+			Registry.register(Registry.ITEM, new Identifier("aspects", "perditio_bone"), PERDITIO_BONE);
 			LOGGER.info("Hello from Aspects :D");
 	}
 

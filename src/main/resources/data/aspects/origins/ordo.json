@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "aspects:holy_light",
+        "aspects:positive_influence",
+        "aspects:darkness_damage",
+        "aspects:night_aversion",
+        "aspects:holy",
+        "aspects:lightborn"
+    ],
+    "icon": {
+        "item": "aspects:ordo_star"
+    },
+    "name": "Ordo",
+    "description": "Vigilant and organized, Ordo users are kind, diligent and natural leaders."
+}

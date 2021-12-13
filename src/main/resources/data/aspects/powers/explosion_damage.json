@@ -1,0 +1,18 @@
+{
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 4,
+        "source": {
+            "name": "explosion",
+            "bypasses_armor": false
+        }
+    },
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "inWall"
+    },
+    "cooldown": 1,
+    "name":"Crystalline",
+    "description":"You take more damage from explosions."
+}

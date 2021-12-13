@@ -36,11 +36,21 @@
             "origins": [
                 "aspects:human",
                 "aspects:tempus",
-                "aspects:avis",
-                "aspects:sophos",
-                "icarus:icarae"
+                "aspects:avis"
             ]
-            }
+            },
+            {
+                "condition": {
+                    "type":"origins:origin",
+                    "origin":"aspects:geo",
+                    "layer":"aspects:elements"
+                },
+                "origins": [
+                    "aspects:human",
+                    "aspects:dendro",
+                    "idkarockthingmining"
+                ]
+                }
             ],
 
     "name": "Type",
