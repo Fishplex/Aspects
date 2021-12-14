@@ -1,0 +1,27 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:chance",
+        "chance": 0.05,
+        "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:hero_of_the_village",
+            "duration": 12000,
+            "amplifier": 0
+        }
+    }
+    },
+    "interval": 24000,
+    "condition": {
+        "type": "origins:daytime"
+    },
+    "name":"Positive Influence",
+    "description":"As every morning passes, you have a small chance to gain the Hero of the Village effect.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}

@@ -10,7 +10,8 @@
             "origins": [
                 "aspects:magmus",
                 "aspects:ignis",
-                "aspects:navitas"
+                "aspects:navitas",
+                "aspects:imp"
             ]
         },
         {
@@ -23,7 +24,8 @@
                 "aspects:cryo",
                 "aspects:human",
                 "aspects:altum",
-                "aspects:aquatillis"
+                "aspects:aquatillis",
+                "aspects:imp"
             ]
         },
         {
@@ -34,7 +36,8 @@
             },
             "origins": [
                 "aspects:tempus",
-                "aspects:avis"
+                "aspects:avis",
+                "aspects:imp"
             ]
             },
             {
@@ -45,7 +48,8 @@
                 },
                 "origins": [
                     "aspects:dendro",
-                    "idkarockthingmining"
+                    "idkarockthingmining",
+                    "aspects:imp"
                 ]
                 },
                 {
@@ -55,7 +59,8 @@
                         "layer":"aspects:elements"
                     },
                     "origins": [
-                        "aspects:luna"
+                        "aspects:luna",
+                        "aspects:imp"
                     ]
                     },
                     {
@@ -65,7 +70,8 @@
                             "layer":"aspects:elements"
                         },
                         "origins": [
-                            "aspects:solus"
+                            "aspects:solus",
+                            "aspects:imp"
                         ]
                         }
             ],

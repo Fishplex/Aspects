@@ -12,7 +12,7 @@
         "bar_index":8
     },
     "key": {
-        "key": "key.origins.secondary_active"
+        "key": "key.origins.quaternary_active"
     },
     "name":"Friendly Assistance",
     "description":"As your secondary ability, you can spawn in an Iron Golem to help you fight off enemies."

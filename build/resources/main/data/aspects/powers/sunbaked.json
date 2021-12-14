@@ -1,0 +1,20 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "aspects:sun_bar",
+        "change": 1
+    },
+    "interval": 10,
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "name":"Sunbaked",
+    "description":"When you stay in the sun for long enough, you will become strengthened.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}

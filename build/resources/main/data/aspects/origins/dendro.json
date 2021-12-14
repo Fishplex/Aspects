@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "aspects:flower_regen",
+        "aspects:bonemeal",
+        "aspects:grass_speed",
+        "aspects:dendro_primary",
+        "aspects:dendro_secondary",
+        "aspects:poison_resistance",
+        "aspects:suspicious_substance"
+    ],
+    "icon": {
+        "item": "minecraft:wheat_seeds"
+    },
+    "name": "§2Dendro",
+    "description": "Lovers of art, nature and all things beautiful, Dendro types certainly are a unique breed."
+}

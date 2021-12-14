@@ -1,0 +1,16 @@
+{
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-12-13 19:33:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2021-12-13 19:36:02 -0400",
+      "minecraft:plains": "2021-12-13 19:33:48 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 2860
+}

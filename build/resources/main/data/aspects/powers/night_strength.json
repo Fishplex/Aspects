@@ -1,0 +1,21 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 1
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:daytime",
+        "inverted": true
+    },
+    "name":"Night Strength",
+    "description":"You do more damage during the nighttime.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}

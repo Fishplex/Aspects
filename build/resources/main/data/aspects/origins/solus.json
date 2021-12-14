@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "aspects:fire_resistance",
+        "aspects:holy_flame",
+        "aspects:sunbaked",
+        "aspects:sun_bar",
+        "aspects:decay",
+        "aspects:solus_primary",
+        "aspects:solus_secondary"
+    ],
+    "icon": {
+        "item": "minecraft:sunflower"
+    },
+    "name": "§6Solus",
+    "description": "Bold and egotistical, Solus types are as bright as the sun. Paladins, warriors and priests, these types are always in the action."
+}

@@ -6,7 +6,8 @@
         "aspects:geo",
         "aspects:pyro",
         "aspects:ordo",
-        "aspects:perditio"
+        "aspects:perditio",
+        "aspects:vacuos"
     ],
     "name": "Aspect",
     "replace":true

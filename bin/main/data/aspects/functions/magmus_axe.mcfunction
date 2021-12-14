@@ -1,0 +1,1 @@
+give @s netherite_axe{display:{Name:'{"text":"Magmus Axe","bold":true}'},Damage:0.2,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:4,Operation:0,UUID:[I;1441235399,-2116137748,-2137704842,-2051316587]}]} 1

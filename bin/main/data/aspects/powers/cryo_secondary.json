@@ -34,7 +34,7 @@
         "inverted":true
     },
         "key": {
-            "key": "key.origins.secondary_active"
+            "key": "key.origins.quaternary_active"
         },
         "name":"Icy Aura",
         "description":"With your secondary key, you can deal freeze damage to those around you within an 8 block radius."

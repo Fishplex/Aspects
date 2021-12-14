@@ -1,0 +1,10 @@
+{
+    "type": "origins:toggle",
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+    },
+    "retain_state": false,
+    "name":"Invisibility",
+    "description":"As your primary ability, you can toggle invisibility. Deactivates when you are on fire."
+}

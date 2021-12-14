@@ -1,7 +1,6 @@
 {
     "powers": [
         "aspects:fire_resistance",
-        "aspects:holy_flame",
         "aspects:sunbaked",
         "aspects:sun_bar",
         "aspects:decay",

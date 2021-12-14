@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "aspects:flower_regen",
+        "aspects:bonemeal",
+        "aspects:grass_speed",
+        "aspects:dendro_primary",
+        "aspects:dendro_secondary",
+        "aspects:poison_resistance",
+        "aspects:suspicious_substance"
+    ],
+    "icon": {
+        "item": "minecraft:water_bottle"
+    },
+    "name": "§3Altum",
+    "description": "WAaAA."
+}

@@ -1,0 +1,20 @@
+{
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:poison"
+    },
+    "damage_condition": {
+        "type": "origins:name",
+        "name":"magic"
+        },
+    "cooldown": 0.5,
+    "name":"Poison Ivy",
+    "description":"Poison damage doesn't hurt as much.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}

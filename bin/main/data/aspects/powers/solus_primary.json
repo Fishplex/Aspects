@@ -23,6 +23,7 @@
         "bar_index":10,
         "inverted":true
     },
+    "key":"key.origins.ternary_active",
     "name":"Solar Revealing",
     "description":"All entities within a 40 block radius of you will be highlighted with your primary ability. What an eyesore."
 }

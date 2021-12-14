@@ -1,0 +1,21 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.005
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:daytime",
+        "inverted": true
+    },
+    "name":"Nightwalker",
+    "description":"Your movement speed is increased at night.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}
