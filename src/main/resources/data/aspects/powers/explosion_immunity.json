@@ -9,5 +9,11 @@
         "value": -1000
     },
     "name":"Explosion Immunity",
-    "description":"Explosions don't hurt you."
+    "description":"Explosions don't hurt you.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
 }

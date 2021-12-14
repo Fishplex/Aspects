@@ -30,6 +30,6 @@
     },
     "key":"key.origins.ternary_active",
     "name":"Lightning Bolt",
-    "description":"When pressing the respective key, you will summon a lightning bolt at the block or entity you are looking at, doing damage and setting nearby blocks on fire as well."
+    "description":"When pressing the [Ternary] key, you will summon a lightning bolt at the block or entity you are looking at, doing damage and setting nearby blocks on fire as well."
 
     }

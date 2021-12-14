@@ -22,9 +22,8 @@
             },
             "origins": [
                 "aspects:cryo",
-                "aspects:human",
                 "aspects:altum",
-                "aspects:aquatillis",
+                "aspects:imber",
                 "aspects:imp"
             ]
         },

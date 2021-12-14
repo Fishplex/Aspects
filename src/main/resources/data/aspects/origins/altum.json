@@ -1,16 +1,10 @@
 {
     "powers": [
-        "aspects:flower_regen",
-        "aspects:bonemeal",
-        "aspects:grass_speed",
-        "aspects:dendro_primary",
-        "aspects:dendro_secondary",
-        "aspects:poison_resistance",
-        "aspects:suspicious_substance"
+
     ],
     "icon": {
-        "item": "minecraft:water_bottle"
+        "item": "minecraft:snowball"
     },
-    "name": "§3Altum",
-    "description": "WAaAA."
+    "name": "§bAltum",
+    "description": "Far from any source of illumination, darkly lit faces reflect off the spectral ocean's view. The deep sea shines in the eyes of the Altum."
 }

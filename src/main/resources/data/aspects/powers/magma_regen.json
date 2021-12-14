@@ -13,5 +13,11 @@
         }
     },
     "name":"Back to the Source",
-    "description":"As a being of magma, standing on magma blocks gives you regeneration."
+    "description":"As a being of magma, standing on magma blocks gives you regeneration.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
 }

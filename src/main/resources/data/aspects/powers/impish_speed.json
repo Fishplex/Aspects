@@ -6,7 +6,7 @@
         "operation": "addition"
     },
     "name":"Impish Speed",
-    "description":"Being a devillish little bugger has given you the speed to run away from your angered prank victims.",
+    "description":"Being a devilish little bugger has given you the speed to run away from your angered prank victims.",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

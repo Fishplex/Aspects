@@ -7,5 +7,5 @@
     
     "retain_state": false,
     "name":"Invisibility",
-    "description":"As your primary ability, you can toggle invisibility. Deactivates when you are on fire."
+    "description":"As your primary ability, you can toggle invisibility with your [Ternary] key. Deactivates when you are on fire."
 }

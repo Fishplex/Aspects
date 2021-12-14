@@ -22,7 +22,7 @@
     "key": "key.origins.quaternary_active",
     "cooldown": 1400,
     "name":"Bam",
-    "description":"Using your evil little powers, you can grant yourself exactly eight precious blocks to TNT and eight weapons of destruction - fire charges.",
+    "description":"Using your evil little powers ([Quaternary Key]), you can grant yourself exactly eight precious blocks to TNT and eight weapons of destruction - fire charges.",
     "hud_render": {
         "inverted":true,
         "sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png",
