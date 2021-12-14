@@ -7,7 +7,7 @@
         "aspects:magic_resistance"
     ],
     "icon": {
-        "item": "minecraft:bottle"
+        "item": "minecraft:glass_bottle"
     },
     "name": "§3Imber",
     "description": "The gentle drumming of light rain hitting the sullen ground empowers the people of Imber. Inhale, do they, the primal scents of earth and sky, each drop of fresh water absorbed into a generation's spectral veins."
