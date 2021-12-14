@@ -7,5 +7,11 @@
         "operation": "addition"
     },
     "name":"Stable Footing",
-    "description":"Knockback doesn't bother you."
+    "description":"Knockback doesn't bother you.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
 }

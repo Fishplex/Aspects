@@ -1,0 +1,6929 @@
+{
+  "type": "origins:active_self",
+  "entity_action":
+  {
+    "type": "origins:if_else_list",
+    "actions":
+    [
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:sugar"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:swiftness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:rabbit_foot"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:leaping\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:glistering_melon_slice"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:healing\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:spider_eye"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:poison\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:pufferfish"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:water_breathing\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:golden_carrot"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:night_vision\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:magma_cream"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:blaze_powder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strength\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:ghast_tear"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:regeneration\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:turtle_helmet"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:turtle_master\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:phantom_membrane"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:slow_falling\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:or",
+              "conditions":
+              [
+                {
+                  "type": "origins:command",
+                  "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:swiftness\"}}}]",
+                  "permission_level": 4,
+                  "comparison": ">=",
+                  "compare_to": 1
+                },
+                {
+                  "type": "origins:command",
+                  "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:leaping\"}}}]",
+                  "permission_level": 4,
+                  "comparison": ">=",
+                  "compare_to": 1
+                }
+              ]
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:fermented_spider_eye"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:slowness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:or",
+              "conditions":
+              [
+                {
+                  "type": "origins:command",
+                  "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:healing\"}}}]",
+                  "permission_level": 4,
+                  "comparison": ">=",
+                  "compare_to": 1
+                },
+                {
+                  "type": "origins:command",
+                  "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:poison\"}}}]",
+                  "permission_level": 4,
+                  "comparison": ">=",
+                  "compare_to": 1
+                }
+              ]
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:fermented_spider_eye"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:harming\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:night_vision\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:fermented_spider_eye"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:invisibility\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:swiftness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_swiftness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:leaping\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_leaping\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:poison\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_poison\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water_breathing\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_water_breathing\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:fire_resistance\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_fire_resistance\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:night_vision\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_night_vision\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strength\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_strength\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:regeneration\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_regeneration\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:turtle_master\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_turtle_master\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:slow_falling\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_slow_falling\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:slowness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_slowness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:invisibility\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_invisibility\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:swiftness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:glowstone_dust"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_swiftness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:leaping\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:glowstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_leaping\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:healing\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:glowstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_healing\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:poison\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:glowstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_poison\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strength\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:glowstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_strength\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:regeneration\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:glowstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_regeneration\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:turtle_master\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:glowstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_turtle_master\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:slowness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:glowstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_slowness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:harming\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:glowstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_harming\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:swiftness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:swiftness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:leaping\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:leaping\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:healing\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:healing\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:poison\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:poison\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water_breathing\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:water_breathing\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:fire_resistance\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:night_vision\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:night_vision\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strength\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strength\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:regeneration\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:regeneration\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:turtle_master\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:turtle_master\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:slow_falling\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:slow_falling\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:slowness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:slowness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:harming\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:harming\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:invisibility\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:invisibility\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_swiftness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_swiftness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_leaping\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_leaping\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_poison\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_poison\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_water_breathing\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_water_breathing\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_fire_resistance\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_fire_resistance\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_night_vision\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_night_vision\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_strength\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_strength\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_regeneration\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_regeneration\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_turtle_master\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_turtle_master\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_slow_falling\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_slow_falling\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_slowness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_slowness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_invisibility\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_invisibility\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_swiftness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_swiftness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_leaping\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_leaping\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_healing\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_healing\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_poison\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_poison\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_strength\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_strength\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_regeneration\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_regeneration\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_turtle_master\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_turtle_master\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_slowness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_slowness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_harming\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_harming\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:swiftness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:swiftness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:leaping\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:leaping\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:healing\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:healing\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:poison\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:poison\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:water_breathing\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:water_breathing\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:fire_resistance\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:night_vision\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:night_vision\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strength\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strength\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:regeneration\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:regeneration\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:turtle_master\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:turtle_master\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:slow_falling\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:slow_falling\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:slowness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:slowness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:harming\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:harming\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:invisibility\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:invisibility\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_swiftness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_swiftness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_leaping\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_leaping\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_poison\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_poison\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_water_breathing\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_water_breathing\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_fire_resistance\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_fire_resistance\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_night_vision\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_night_vision\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_strength\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_strength\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_regeneration\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_regeneration\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_turtle_master\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_turtle_master\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_slow_falling\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_slow_falling\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_slowness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_slowness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_invisibility\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_invisibility\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_swiftness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_swiftness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_leaping\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_leaping\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_healing\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_healing\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_poison\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_poison\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_strength\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_strength\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_regeneration\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_regeneration\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_turtle_master\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_turtle_master\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_slowness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_slowness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_harming\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:strong_harming\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:fermented_spider_eye"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:weakness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:weakness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:redstone"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_weakness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:weakness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:weakness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_weakness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:gunpowder"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:splash_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_weakness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:weakness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:weakness\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition":
+        {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+              "type": "origins:command",
+              "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_weakness\"}}}]",
+              "permission_level": 4,
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "offhand",
+              "item_condition":
+              {
+                "type": "origins:ingredient",
+                "ingredient":
+                {
+                  "item": "minecraft:dragon_breath"
+                }
+              }
+            }
+          ]
+        },
+        "action":
+        {
+          "type": "origins:and",
+          "actions":
+          [
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "mainhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:equipped_item_action",
+              "equipment_slot": "offhand",
+              "action":
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            },
+            {
+              "type": "origins:give",
+              "stack":
+              {
+                "item": "minecraft:lingering_potion",
+                "amount": 1,
+                "tag": "{Potion:\"minecraft:long_weakness\"}"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "cooldown": 0,
+  "hud_render":
+  {
+    "should_render": false
+  },
+  "key":
+  {
+    "key": "key.origins.ternary_active"
+  },
+  "name": "Portable Brewing",
+  "description": "[Ternary] You are able to brew on the go."
+}

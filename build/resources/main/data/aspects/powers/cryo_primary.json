@@ -32,7 +32,7 @@
     },
     "key":"key.origins.ternary_active",
     "name":"Freeze Focus",
-    "description":"When pressing the respective key, you will fire a ray of ice in the direction you are facing that will deal freeze damage to the target and freeze over ice on impact."
+    "description":"When pressing the [Ternary] key, you will fire a ray of ice in the direction you are facing that will deal freeze damage to the target and freeze over water on impact."
 
     }
 

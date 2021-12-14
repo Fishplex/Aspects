@@ -1,0 +1,23 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:strength",
+            "duration": 400,
+            "amplifier": 2
+        }
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:in_rain"
+    },
+    "name":"Rain Strength",
+    "description":"You get strength when in rain.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}

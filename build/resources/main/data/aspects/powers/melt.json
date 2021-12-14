@@ -31,6 +31,7 @@
                                             }
                 ]
                 }
+        }
         },
         "name":"Hot Feet",
         "description":"Ice and snow underneath you will melt.",
@@ -40,5 +41,4 @@
                 "text": "Neutral"
             }
             ]
-        }
     }

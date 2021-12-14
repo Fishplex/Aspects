@@ -1,0 +1,19 @@
+{
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:damage",
+        "amount": 0.5,
+        "source": {
+            "name": "indirectMagic",
+            "magic":true
+        }
+    },
+    "name":"Magic Damage",
+    "description":"All of your attacks do magic damage.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}
