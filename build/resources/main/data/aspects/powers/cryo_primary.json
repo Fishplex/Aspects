@@ -30,7 +30,7 @@
         "bar_index":5,
         "inverted":true
     },
-
+    "key":"key.origins.ternary_active",
     "name":"Freeze Focus",
     "description":"When pressing the respective key, you will fire a ray of ice in the direction you are facing that will deal freeze damage to the target and freeze over ice on impact."
 

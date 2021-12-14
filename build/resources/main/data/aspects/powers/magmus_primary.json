@@ -1,0 +1,29 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type":"origins:and",
+        "actions":[
+            {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:strength",
+            "duration": 400,
+            "amplifier": 3
+        }
+    },
+        {
+        "type":"origins:execute_command",
+        "command":"function aspects:magma_resistance"
+        }
+    ]
+    },
+    "cooldown": 800,
+    "name":"Molten Fists",
+    "description":"As your primary ability, you can grant yourself an amplified strength effect.",
+    "hud_render": {
+        "inverted":true,
+        "sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index":4,
+        "should_render": true
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name":"explosion.player"
+        },
+    "modifier": {
+        "operation": "addition",
+        "value": -1000
+    },
+    "name":"Explosion Immunity",
+    "description":"Explosions don't hurt you."
+}

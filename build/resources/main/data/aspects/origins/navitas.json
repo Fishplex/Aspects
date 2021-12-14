@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "aspects:explosion_immunity",
+        "aspects:impish_speed",
+        "aspects:navitas_primary",
+        "aspects:navitas_secondary"
+    ],
+    "icon": {
+        "item": "minecraft:firework_star"
+    },
+    "name": "§eNavitas",
+    "description": "Navitas users are real firecrackers, and always seem to have a trick hidden up their sleeve."
+}
