@@ -10,7 +10,7 @@
         "type": "origins:daytime"
     },
     "name":"Day Aversion",
-    "description":"You are weakened at daytime.",
+    "description":"You are weakened at daytime. / -0.05 attack damage during daytime",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/cross.png",

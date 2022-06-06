@@ -5,7 +5,7 @@
             "name": "indirectMagic"
         },
     "modifier": {
-        "name": "Weak to cursed items",
+        "name": "Magic Resistance",
         "operation": "addition",
         "value": -10
     },

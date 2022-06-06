@@ -11,7 +11,7 @@
         "inverted": true
     },
     "name":"Night Strength",
-    "description":"You do more damage during the nighttime.",
+    "description":"You do more damage during the nighttime. / +1 attack damage at night",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

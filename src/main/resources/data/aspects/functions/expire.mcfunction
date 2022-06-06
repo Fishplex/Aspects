@@ -1,0 +1,1 @@
+kill @e[type=iron_golem,tag=temporary]

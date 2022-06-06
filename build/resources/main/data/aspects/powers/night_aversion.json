@@ -11,7 +11,7 @@
         "inverted":true
     },
     "name":"Night Aversion",
-    "description":"You are weakened at nighttime.",
+    "description":"You are weakened at nighttime. / -0.05 attack damage at night",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/cross.png",

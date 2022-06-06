@@ -9,7 +9,7 @@
                         "type": "origins:apply_effect",
                         "effect": {
                             "effect": "minecraft:glowing",
-                            "duration": 300,
+                            "duration": 100,
                             "amplifier": 0,
                             "show_particles":false
                         }

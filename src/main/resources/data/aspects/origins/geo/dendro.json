@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "aspects:flower_regen",
+        "aspects:poison_resistance",
+        "aspects:bonemeal",
+        "aspects:grass_speed",
+        "aspects:dendro_primary",
+        "aspects:dendro_secondary",
+        "aspects:suspicious_substance",
+        "aspects:golem_expire",
+        "aspects:golem_resource"
+    ],
+    "icon": {
+        "item": "minecraft:wheat_seeds"
+    },
+    "name": "§2Dendro",
+    "description": "Lovers of art, nature and all things beautiful, the Dendro people inhabit local forests. Every now and then, a brave adventurer will venture into the woods to witness their song."
+}

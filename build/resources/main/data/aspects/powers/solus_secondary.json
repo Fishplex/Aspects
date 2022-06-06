@@ -19,7 +19,7 @@
                 "type": "origins:damage",
                 "amount": 10,
                 "source": {
-                    "name": "inFire",
+                    "name": "onFire",
                     "bypasses_armor": true,
                     "fire":true
                 }
@@ -31,13 +31,20 @@
                 "type": "origins:add_velocity",
                 "y": 1
                 }
+            },
+            {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:set_on_fire",
+                "duration": 6
             }
+        }
     ]
 }
             }
         ]
 },
-    "cooldown": 3400,
+    "cooldown": 800,
     "hud_render": {
         "should_render": true,
         "inverted":true,

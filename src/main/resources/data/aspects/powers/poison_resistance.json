@@ -8,7 +8,7 @@
         "type": "origins:name",
         "name":"magic"
         },
-    "cooldown": 0.5,
+    "cooldown": 0.2,
     "name":"Poison Ivy",
     "description":"Poison damage doesn't hurt as much.",
     "badges": [

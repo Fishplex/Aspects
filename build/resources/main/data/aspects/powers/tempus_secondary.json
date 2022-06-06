@@ -23,7 +23,7 @@
         "radius": 10,
         "bientity_action": {
             "type": "origins:damage",
-            "amount": 4,
+            "amount": 5,
             "source": {
                 "name": "lightningBolt",
                 "bypasses_armor": true
@@ -36,7 +36,7 @@
     },
     {
         "type": "origins:heal",
-        "amount": 6
+        "amount": 8
     },
     {
         "type":"origins:execute_command",

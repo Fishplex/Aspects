@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name":"lightningBolt"
+        },
+    "modifier": {
+        "operation": "addition",
+        "value": -1000
+    },
+    "hidden": true
+}

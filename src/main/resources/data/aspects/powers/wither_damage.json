@@ -9,7 +9,7 @@
         }
     },
     "name":"Wither",
-    "description":"Your attacks do wither damage.",
+    "description":"Your attacks do wither damage. / +0.05 wither damage every hit",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

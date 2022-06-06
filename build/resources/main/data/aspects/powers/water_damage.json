@@ -1,6 +1,6 @@
 {
     "type": "origins:damage_over_time",
-    "interval": 20,
+    "interval": 40,
     "onset_delay": 1,
     "damage": 2,
     "damage_easy": 1,
@@ -26,7 +26,7 @@
         ]
     },
     "name":"Water Damage",
-    "description":"When you touch water, you receive damage.",
+    "description":"When you touch water, you receive damage. / +2 damage every 40 ticks",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/cross.png",

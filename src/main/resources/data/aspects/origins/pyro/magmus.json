@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "aspects:magma_regen",
+        "aspects:knockback_resistance",
+        "aspects:increased_health",
+        "aspects:magmus_primary",
+        "aspects:magmus_secondary"
+    ],
+    "icon": {
+        "item": "minecraft:magma_block"
+    },
+    "name": "§4Magmus",
+    "description": "Juggernauts - the strongest of warriors, the steadfast heroes, the blood of the Magmus users whisper of the oozing lava slipping between ancient volcanic rock."
+}

@@ -13,7 +13,7 @@
         "group": "undead"
     },
     "name":"Holy Affinity",
-    "description":"You do more damage against the undead.",
+    "description":"You do more damage against the undead. / +3 generic damage against the undead",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

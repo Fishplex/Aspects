@@ -14,7 +14,7 @@
     },
     "cooldown": 20,
     "name":"Evaporation",
-    "description":"Fire hurts you a lot more than it normally would.",
+    "description":"Fire hurts you a lot more than it normally would. / +2 fire damage when bursting into flames",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/cross.png",

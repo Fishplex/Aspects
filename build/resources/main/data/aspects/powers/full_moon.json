@@ -21,7 +21,7 @@
         "predicate": "moon-phase:at_night/is_full_moon"
     },
     "name":"Full Moon",
-    "description":"On full moons, your speed and strength are greatly increased.",
+    "description":"On full moons, your speed and strength are greatly increased. / +0.05 movement speed & +2 attack damage during full moons",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

@@ -6,7 +6,7 @@
         "operation": "addition"
     },
     "name":"Heavy As Stone",
-    "description":"Though you may be sturdy and resistant, you are a little bit slower than other aspects.",
+    "description":"Though you may be sturdy and resistant, you are a little bit slower than other aspects. / -0.0002 movement speed",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/cross.png",

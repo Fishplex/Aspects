@@ -12,7 +12,7 @@
             "command":"function aspects:fire_light"
         }
     ],
-    "cooldown": 300,
+    "cooldown": 500,
     "hud_render": {
         "should_render": true,
         "bar_index": 7,

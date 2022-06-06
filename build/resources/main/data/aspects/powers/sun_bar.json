@@ -4,16 +4,26 @@
     "max": 30,
     "hud_render": {
         "should_render": true,
-        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png"
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "aspects:sun_bar",
+            "comparison": ">",
+            "compare_to": 0
+        }
     },
     "max_action": {
             "type": "origins:apply_effect",
             "effect": {
                 "effect": "minecraft:strength",
                 "show_particles":false,
-                "duration": 200,
+                "duration": 999999999,
                 "amplifier": 1
             }
+        },
+    "min_action": {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:strength"
         },
     "hidden":true
 }

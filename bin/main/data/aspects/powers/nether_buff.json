@@ -13,7 +13,7 @@
     }
 },
 "name":"Homely Strength",
-"description":"You do more damage whilst in the Nether.",
+"description":"You do more damage whilst in the Nether. / +0.4 generic damage in the Nether",
 "badges": [
     {
         "sprite": "aspects:textures/gui/badge/check.png",

@@ -28,7 +28,7 @@
             }
             ],
             "name":"Flower Regeneration",
-            "description":"You are healed when you are nearby flowers."
+            "description":"You are healed when you are nearby flowers. / +0.3 health every 20 ticks"
     }
 
 

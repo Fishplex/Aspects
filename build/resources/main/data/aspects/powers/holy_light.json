@@ -10,7 +10,7 @@
         "type": "origins:daytime"
     },
     "name":"Holy Light",
-    "description":"You do more damage during the daytime.",
+    "description":"You do more damage during the daytime. / +1 attack damage during day",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

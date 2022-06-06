@@ -11,7 +11,7 @@
         "inverted": true
     },
     "name":"Nightwalker",
-    "description":"Your movement speed is increased at night.",
+    "description":"Your movement speed is increased at night. / +0.005 movement speed at night",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

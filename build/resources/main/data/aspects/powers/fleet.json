@@ -6,7 +6,7 @@
         "operation": "addition"
     },
     "name":"Like Lightning",
-    "description":"You are an even faster variant of Anemo.",
+    "description":"You are an even faster variant of Anemo. / +0.01 movement speed",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

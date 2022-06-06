@@ -13,5 +13,5 @@
         "type": "origins:on_fire"
     },
     "name":"Heat of the Sun",
-    "description":"Fire doesn't hurt as much."
+    "description":"Fire doesn't hurt as much. / Base level Fire Resistance applied when on fire"
 }

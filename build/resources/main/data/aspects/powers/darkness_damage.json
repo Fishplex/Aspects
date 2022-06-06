@@ -13,7 +13,7 @@
     },
     "cooldown": 1,
     "name":"Darkness Damage",
-    "description":"You take more damage from wither damage.",
+    "description":"You take more damage from wither damage. / +2 generic damage when taking wither damage",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/cross.png",

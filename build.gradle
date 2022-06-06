@@ -17,7 +17,6 @@ repositories {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
 
-	repositories {
     maven {
         name = "Ladysnake Libs"
         url = 'https://ladysnake.jfrog.io/artifactory/mods'
@@ -40,10 +39,9 @@ repositories {
     maven {
         url "https://maven.shedaniel.me/"
     }
-    maven {
+	    maven {
         url "https://maven.terraformersmc.com/"
     }
-}
 }
 
 dependencies {

@@ -17,13 +17,14 @@
         }
     ]
     },
+    "key": "key.origins.ternary_active",
     "cooldown": 800,
     "name":"Molten Fists",
-    "description":"As your primary ability, you can grant yourself an amplified strength effect.",
+    "description":"As your primary ability, you can grant yourself an amplified strength effect with the [Ternary] key. / Strength 3 for 400 ticks",
     "hud_render": {
         "inverted":true,
         "sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png",
-        "bar_index":4,
+        "bar_index":5,
         "should_render": true
     }
 }

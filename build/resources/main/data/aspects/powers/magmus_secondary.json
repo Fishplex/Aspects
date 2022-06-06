@@ -20,11 +20,11 @@
     "key": "key.origins.quaternary_active",
     "cooldown": 1400,
     "name":"Magmaskin",
-    "description":"With your secondary ability, you may grant yourself a highly amplified resistance effect.",
+    "description":"With your secondary ability [Quaternary] key, you may grant yourself a highly amplified resistance effect. / Resistance 3 for 700 ticks",
     "hud_render": {
         "inverted":true,
         "sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
-        "bar_index":8,
+        "bar_index":7,
         "should_render": true
     }
 }

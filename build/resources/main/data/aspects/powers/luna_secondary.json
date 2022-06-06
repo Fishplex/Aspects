@@ -1,15 +1,15 @@
 {
     "type": "origins:active_self",
     "entity_action": {
-        "type": "origins:spawn_effect_cloud",
-        "radius": 10.0,
-        "wait_time": 40,
-        "effect": {
-            "effect": "minecraft:wither",
-            "amplifier": 3,
-            "duration": 20
-        }
-    },
+            "type": "origins:spawn_effect_cloud",
+            "radius": 10.0,
+            "wait_time": 40,
+            "effect": {
+                "effect": "minecraft:wither",
+                "amplifier": 3,
+                "duration": 20
+            }
+        },
     "cooldown": 1400,
     "hud_render": {
         "should_render": true,

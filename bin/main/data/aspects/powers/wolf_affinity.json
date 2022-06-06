@@ -10,6 +10,13 @@
         "condition":
         {
             "type": "origins:sneaking"
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:wolf"
+            }
         }
     },
     "name":"Wolf Affinity",

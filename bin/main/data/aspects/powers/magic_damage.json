@@ -9,7 +9,7 @@
         }
     },
     "name":"Magic Damage",
-    "description":"All of your attacks do magic damage.",
+    "description":"All of your attacks do magic damage. / +0.5 magic damage on hit",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

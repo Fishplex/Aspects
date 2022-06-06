@@ -31,7 +31,7 @@
     "bar_index":15
     },
     "key": "key.origins.quaternary_active",
-    "cooldown": 1400,
+    "cooldown": 900,
     "name":"Ring of Fire",
     "description":"As your secondary ability, you can light entities around you on fire for a few seconds with your [Quaternary] key."
 }

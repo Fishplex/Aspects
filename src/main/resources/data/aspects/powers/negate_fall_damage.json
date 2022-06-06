@@ -270,7 +270,7 @@
         "type": "origins:modify_damage_taken",
         "modifier": {
             "name": "More kinetic damage taken",
-            "value": -0.85,
+            "value": -99999,
             "operation": "multiply_base"
         },
         "damage_condition": {

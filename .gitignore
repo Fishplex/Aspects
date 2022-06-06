@@ -1,0 +1,9 @@
+/.vscode
+/bin
+/build
+/.gradle
+/logs
+/run
+/saves
+Aspects.code-workspace
+.DS_Store

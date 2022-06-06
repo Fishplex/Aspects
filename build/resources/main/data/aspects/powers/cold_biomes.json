@@ -15,7 +15,7 @@
       }
     },
     "name":"Cold Affinity",
-    "description":"You get a decent attack boost in cold biomes. (N)ice ;)",
+    "description":"You get a decent attack boost in cold biomes. (N)ice ;) / +0.4 attack damage when in cold (<=0.05 temperature) biomes",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

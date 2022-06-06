@@ -13,7 +13,7 @@
         }
     },
     "name":"Back to the Source",
-    "description":"As a being of magma, standing on magma blocks gives you regeneration.",
+    "description":"As a being of magma, standing on magma blocks gives you regeneration. / +1 health every 20 ticks",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

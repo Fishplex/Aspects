@@ -11,7 +11,7 @@
     },
 
     "name":"Heated Strength",
-    "description":"Being on fire grants you an attack damage bonus.",
+    "description":"Being on fire grants you an attack damage bonus. / +3 generic damage when on fire",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

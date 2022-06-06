@@ -3,7 +3,7 @@
     "modifier": {
         "attribute": "minecraft:generic.movement_speed",
         "operation": "addition",
-        "value": 0.05
+        "value": 0.03
     },
     "tick_rate": 20,
     "condition": {
@@ -14,7 +14,7 @@
         }
     },
     "name":"Grassfeet",
-    "description":"When on grass blocks, your movement speed is increased.",
+    "description":"When on grass blocks, your movement speed is increased. / +0.03 movement speed when touching grass",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",

@@ -30,6 +30,6 @@ public class Aspects implements ModInitializer {
 			Registry.register(Registry.ITEM, new Identifier("aspects", "ordo_star"), ORDO_STAR);
 			Registry.register(Registry.ITEM, new Identifier("aspects", "perditio_bone"), PERDITIO_BONE);
 			LOGGER.info("Hello from Aspects :D");
-	}
 
+	}
 }

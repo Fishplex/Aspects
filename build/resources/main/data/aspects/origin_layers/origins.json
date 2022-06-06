@@ -1,5 +1,5 @@
 {
-    "order": 0,
+    "order": 1,
     "origins": [
         {
             "condition": {
@@ -8,9 +8,8 @@
                 "layer": "aspects:elements"
             },
             "origins": [
-                "aspects:magmus",
-                "aspects:ignis",
-                "aspects:navitas",
+                "aspects:pyro/magmus",
+                "aspects:pyro/ignis",
                 "aspects:imp"
             ]
         },
@@ -21,9 +20,7 @@
                 "layer": "aspects:elements"
             },
             "origins": [
-                "aspects:cryo",
-                "aspects:altum",
-                "aspects:imber",
+                "aspects:hydro/cryo",
                 "aspects:imp"
             ]
         },
@@ -34,8 +31,8 @@
                 "layer":"aspects:elements"
             },
             "origins": [
-                "aspects:tempus",
-                "aspects:avis",
+                "aspects:anemo/tempus",
+                "aspects:anemo/avis",
                 "aspects:imp"
             ]
             },
@@ -46,8 +43,7 @@
                     "layer":"aspects:elements"
                 },
                 "origins": [
-                    "aspects:dendro",
-                    "idkarockthingmining",
+                    "aspects:geo/dendro",
                     "aspects:imp"
                 ]
                 },
@@ -58,7 +54,7 @@
                         "layer":"aspects:elements"
                     },
                     "origins": [
-                        "aspects:luna",
+                        "aspects:perditio/luna",
                         "aspects:imp"
                     ]
                     },
@@ -69,12 +65,12 @@
                             "layer":"aspects:elements"
                         },
                         "origins": [
-                            "aspects:solus",
+                            "aspects:ordo/solus",
                             "aspects:imp"
                         ]
                         }
             ],
 
     "name": "Type",
-    "replace":true
+    "replace": true
 }
