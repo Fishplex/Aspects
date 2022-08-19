@@ -2,7 +2,7 @@
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:raycast",
-        "distance": 8,
+        "distance": 16,
         "block": true,
         "entity": true,
         "shape_type": "visual",
@@ -14,14 +14,14 @@
             "amount": 2,
             "source": {
                 "name": "lightningBolt",
-                "bypasses_armor": false
+                "bypasses_armor": true
             }
         }
         },
         "command_at_hit": "function aspects:lightning_bolt",
         "command_step": 1
     },
-    "cooldown": 240,
+    "cooldown": 200,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/resource_bar.png",
