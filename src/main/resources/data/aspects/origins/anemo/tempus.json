@@ -1,10 +1,8 @@
 {
     "powers": [
         "aspects:fleet",
-        "aspects:storm_strength",
         "aspects:lightning_immunity",
-        "aspects:tempus_primary",
-        "aspects:tempus_secondary"
+        "aspects:tempus_primary"
     ],
     "icon": {
         "item": "minecraft:amethyst_shard"
