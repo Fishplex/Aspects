@@ -7,3 +7,5 @@
 /saves
 Aspects.code-workspace
 .DS_Store
+/libs
+/remappedSrc

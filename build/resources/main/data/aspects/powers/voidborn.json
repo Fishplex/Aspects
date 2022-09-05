@@ -1,6 +1,0 @@
-{
-            "type": "origins:particle",
-            "particle": "minecraft:mycelium",
-            "frequency": 20,
-            "hidden":true
-}

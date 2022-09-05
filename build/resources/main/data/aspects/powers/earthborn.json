@@ -1,6 +1,0 @@
-{
-    "type": "origins:particle",
-    "particle": "minecraft:falling_spore_blossom",
-    "frequency": 80,
-    "hidden":true
-}
