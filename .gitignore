@@ -9,3 +9,16 @@ Aspects.code-workspace
 .DS_Store
 /libs
 /remappedSrc
+.idea/codeStyles/codeStyleConfig.xml
+.idea/codeStyles/Project.xml
+.idea/compiler.xml
+.idea/discord.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/modules/Aspects.main.iml
+.idea/modules/Aspects.test.iml
+.idea/runConfigurations/Minecraft_Client.xml
+.idea/runConfigurations/Minecraft_Server.xml
+.idea/vcs.xml
+.idea/workspace.xml
