@@ -2,11 +2,11 @@
     "type": "origins:attribute",
     "modifier": {
         "attribute": "minecraft:generic.movement_speed",
-        "value": 0.01,
+        "value": 0.03,
         "operation": "addition"
     },
     "name":"Like Lightning",
-    "description":"You are an even faster variant of Anemo. / +0.01 movement speed",
+    "description":"You are an even faster variant of Anemo. / +0.03 movement speed",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",
