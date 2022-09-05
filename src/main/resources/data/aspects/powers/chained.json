@@ -13,7 +13,7 @@
     
     "tick_rate": 20,
     "name":"Chained",
-    "description":"When you aren't exposed to the sky, you become slower in combat. / -0.05 off your attack speed when not exposed to skylight",
+    "description":"When you aren't exposed to the sky, you become slower in combat. / -0.03 off your attack speed when not exposed to skylight",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/cross.png",

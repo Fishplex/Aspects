@@ -2,10 +2,10 @@
     "type": "origins:modify_xp_gain",
     "modifier": {
         "operation": "multiply_base",
-        "value": 2.0
+        "value": 0.2
     },
     "name":"Wise",
-    "description":"Anemo is also the aspect of wisdom and knowledge. You gain 2x more experience upon picking up an experience orb. Way to go, smarty pants.",
+    "description":"Anemo is also the aspect of wisdom and knowledge. You gain a bit more experience upon picking up an experience orb. Way to go, smarty pants.",
     "badges": [
         {
             "sprite": "aspects:textures/gui/badge/check.png",
