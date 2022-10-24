@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "aspects:hydro/water_breathing",
+        "aspects:hydro/constitution",
+        "aspects:hydro/fire_damage",
+        "aspects:hydro/waterborn",
+        "aspects:hydro/hydro_team",
+        "aspects:start"
+    ],
+    "icon": {
+        "item": "aspects:hydro_kelp"
+    },
+    "name": "§9Hydro",
+    "description": "The siren song of the ever-changing Hydro in the depths is echoed throughout deep and shallow waters, whispered to the unlucky sailor lost at sea."
+}

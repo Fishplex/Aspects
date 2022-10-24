@@ -1,12 +1,12 @@
 {
     "order": 0,
     "origins": [
-        "aspects:anemo",
-        "aspects:hydro",
-        "aspects:geo",
-        "aspects:pyro",
-        "aspects:ordo",
-        "aspects:perditio",
+        "aspects:anemo_layers/anemo",
+        "aspects:hydro_layers/hydro",
+        "aspects:geo_layers/geo",
+        "aspects:pyro_layers/pyro",
+        "aspects:ordo_layers/ordo",
+        "aspects:perditio_layers/perditio",
         "aspects:vacuos"
     ],
     "name": "Aspect",

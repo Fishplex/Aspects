@@ -9,9 +9,9 @@
     "Fishplex"
   ],
   "contact": {
-    "homepage": "https://github.com/Fishplex/Aspects",
-    "sources": "https://github.com/Fishplex/Aspects",
-    "issues": "https://github.com/Fishplex/Aspects/issues"
+    "homepage": "https://github.com/missingbinary/Aspects",
+    "sources": "https://github.com/missingbinary/Aspects",
+    "issues": "https://github.com/missingbinary/Aspects/issues"
   },
 
   "license": "CC0-1.0",
@@ -30,9 +30,11 @@
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric": "*",
-    "minecraft": "1.19.*",
+    "minecraft": "1.19.2",
     "java": ">=17",
     "extrakeybinds":"*",
-    "origins": ">=1.6.2"
+    "origins": ">=1.7.0"
   }
+
+  
 }

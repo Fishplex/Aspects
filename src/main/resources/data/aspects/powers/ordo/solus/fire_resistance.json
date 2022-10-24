@@ -1,0 +1,17 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:fire_resistance",
+            "duration": 200,
+            "amplifier": 0
+        }
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:on_fire"
+    },
+    "name":"Heat of the Sun",
+    "description":"Fire doesn't hurt as much. / Base level Fire Resistance applied when on fire"
+}

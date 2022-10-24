@@ -1,0 +1,31 @@
+{
+    "type": "origins:multiple",
+    "speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": 0.05
+        }
+    },
+        "strength":{
+                "type": "origins:conditioned_attribute",
+                "modifier": {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "addition",
+                    "value": 2
+                }
+    },
+    "condition": {
+        "type": "origins:predicate",
+        "predicate": "moon-phase:at_night/is_full_moon"
+    },
+    "name":"Full Moon",
+    "description":"On full moons, your speed and strength are greatly increased. / +0.05 movement speed & +2 attack damage during full moons",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}

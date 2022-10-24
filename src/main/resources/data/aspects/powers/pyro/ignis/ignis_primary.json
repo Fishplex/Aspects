@@ -1,0 +1,25 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type":"origins:and",
+        "actions": [
+        {
+            "type": "origins:set_on_fire",
+            "duration": 15
+        },
+        {
+            "type":"origins:execute_command",
+            "command":"function aspects:fire_light"
+        }
+    ],
+    "cooldown": 500,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 7,
+        "inverted":true
+    }
+},
+"key":"key.origins.ternary_active",
+    "name":"Ignition",
+    "description":"Using your primary active ability, you can light yourself on fire for a short duration, granting you an attack buff with your [Ternary] key."
+}

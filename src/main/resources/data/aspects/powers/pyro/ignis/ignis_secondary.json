@@ -1,0 +1,37 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type":"origins:and",
+        "actions": [
+            {
+        "type": "origins:area_of_effect",
+        "radius": 10,
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:set_on_fire",
+                "duration": 5
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:can_see"
+        }
+    },
+        {
+            "type":"origins:execute_command",
+            "command":"function aspects:ring_of_fire"
+
+        }
+    ]
+    },
+    "hud_render": {
+        "inverted":true,
+        "should_render": true,
+    "sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index":15
+    },
+    "key": "key.origins.quaternary_active",
+    "cooldown": 900,
+    "name":"Ring of Fire",
+    "description":"As your secondary ability, you can light entities around you on fire for a few seconds with your [Quaternary] key."
+}

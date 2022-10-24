@@ -1,0 +1,37 @@
+{
+    "type":"origins:multiple",
+    "addition":{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "aspects:ordo/solus/sun_bar",
+        "change": 1
+    },
+    "interval": 25,
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    }
+},
+    "subtraction":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "aspects:ordo/solus/sun_bar",
+            "change": -1
+        },
+        "interval": 50,
+        "condition": {
+            "type": "origins:brightness",
+            "comparison": "<",
+            "compare_to": 0.5
+        }
+    },
+    "name":"Sunbaked",
+    "description":"When you stay in the sun for long enough, you will become strengthened.",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}
