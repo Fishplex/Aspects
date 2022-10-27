@@ -1,0 +1,25 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 0.4
+    },
+"tick_rate": 20,
+"condition": {
+    "type": "origins:biome",
+    "condition": {
+        "type": "origins:temperature",
+        "comparison": "<=",
+        "compare_to": 0.05
+      }
+    },
+    "name":"Cold Affinity",
+    "description":"You get a decent attack boost in cold biomes. (N)ice ;) / +0.4 attack damage when in cold (<=0.05 temperature) biomes",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}

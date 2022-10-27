@@ -1,0 +1,21 @@
+{
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:wither"
+    },
+    "damage_condition": {
+        "type": "origins:name",
+        "name":"wither"
+        },
+    "cooldown": 0.2,
+    "name":"Withered Away",
+    "description":"You have wither resistance.",
+    "hidden": true,
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}

@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "aspects:pyro/fire_immunity",
+        "aspects:pyro/nether_buff",
+        "aspects:pyro/water_damage",
+        "aspects:pyro/lava_vision",
+        "aspects:pyro/flameborn",
+        "aspects:start",
+        "aspects:pyro/melt",
+        "aspects:pyro/pyro_team"
+    ],
+    "icon": {
+        "item": "aspects:pyro_fire"
+    },
+    "name": "§cPyro",
+    "description": "A new adventure awaits the seasoned traveller, one who seems to never tire of the endless paths they travel. After a long day of trudging through harsh terrain, a seat by the warm light of the campfire is most comforting."
+}

@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "aspects:perditio/luna/full_moon",
+        "aspects:perditio/luna/nightwalker",
+        "aspects:perditio/luna/wolf_affinity",
+        "aspects:perditio/luna/invisibility",
+        "aspects:perditio/luna/wither_immunity",
+        "aspects:perditio/luna/luna_primary",
+        "aspects:perditio/luna/luna_secondary"
+    ],
+    "icon": {
+        "item": "minecraft:lily_of_the_valley"
+    },
+    "name": "§7Luna",
+    "description": "The Luna users are beings of such beauty that it is perceived by the magicless as the result of the blood of the otherworldly."
+}

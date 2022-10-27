@@ -1,0 +1,16 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.02,
+        "operation": "addition"
+    },
+    "name":"Fleet Footed",
+    "description":"You are quicker on your feet than others. /   +0.02 movement speed",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}

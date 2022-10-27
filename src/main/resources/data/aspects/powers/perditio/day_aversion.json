@@ -1,0 +1,20 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": -0.03
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:daytime"
+    },
+    "name":"Day Aversion",
+    "description":"You are weakened at daytime. / -0.03 attack damage during daytime",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/cross.png",
+            "text": "Negative"
+        }
+        ]
+}

@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "aspects:perditio/void",
+        "aspects:perditio/undead",
+        "aspects:perditio/night_strength",
+        "aspects:perditio/day_aversion",
+        "aspects:perditio/voidborn",
+        "aspects:perditio/wither_damage",
+        "aspects:start",
+        "aspects:perditio/perditio_team"
+    ],
+    "icon": {
+        "item": "aspects:perditio_bone"
+    },
+    "name": "§4Perditio",
+    "description": "Shrouded in darkness and mystery, Perditio users are said to have bones derived from the void, their ancestors the creators of the worlds."
+}
