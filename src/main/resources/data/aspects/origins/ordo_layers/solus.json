@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "aspects:ordo/solus/fire_resistance",
+        "aspects:ordo/solus/sunbaked",
+        "aspects:ordo/solus/sun_bar",
+        "aspects:ordo/solus/decay",
+        "aspects:ordo/solus/solus_primary",
+        "aspects:ordo/solus/solus_secondary"
+    ],
+    "icon": {
+        "item": "minecraft:sunflower"
+    },
+    "name": "§6Solus",
+    "description": "Sons, daughters and children of the bright solar divinity themselves, Solus users hold the power of the universe's light within them."
+}

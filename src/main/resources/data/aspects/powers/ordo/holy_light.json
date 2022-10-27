@@ -1,0 +1,20 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 1
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:daytime"
+    },
+    "name":"Holy Light",
+    "description":"You do more damage during the daytime. / +1 attack damage during day",
+    "badges": [
+        {
+            "sprite": "aspects:textures/gui/badge/check.png",
+            "text": "Positive"
+        }
+        ]
+}

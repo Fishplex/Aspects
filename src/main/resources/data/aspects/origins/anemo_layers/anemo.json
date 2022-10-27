@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "aspects:anemo/fleet_footed",
+        "aspects:anemo/negate_fall_damage",
+        "aspects:anemo/chained",
+        "aspects:anemo/windborn",
+        "aspects:anemo/wise",
+        "aspects:start",
+        "aspects:anemo/anemo_team"
+    ],
+    "icon": {
+        "item": "aspects:anemo_feather"
+    },
+    "name": "§aAnemo",
+    "description": "A lone wind whipped explorer sits perched on a cliff side, a thick book fit for an academic's mind in hand. There they sit, absently watching as the pages detailing the grand discoveries of generations comprised of scholars and adventurers flip from the movement of the wind."
+}

@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "aspects:geo/resistance",
+        "aspects:geo/explosion_damage",
+        "aspects:geo/earthborn",
+        "aspects:start",
+        "aspects:geo/geo_team"
+    ],
+    "icon": {
+        "item": "aspects:geo_diamond"
+    },
+    "name": "§eGeo",
+    "description": "Tales are told of the rock-people who used to dwell deep below the land, feeding off ore and slate where they could. Creatures of massive size, the people of Geo are more than a legend."
+}

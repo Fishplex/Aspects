@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "aspects:pyro/ignis/hot_biomes",
+        "aspects:pyro/ignis/fire_strength",
+        "aspects:pyro/ignis/ignis_primary",
+        "aspects:pyro/ignis/ignis_secondary"
+    ],
+    "icon": {
+        "item": "minecraft:fire_charge"
+    },
+    "name": "§6Ignis",
+    "description": "The true power of flame is revealed in the core of bright, destructive fires that rack the evergreen forests, the simmering airwaves of the driest deserts, and in the hands of the Ignis users."
+}

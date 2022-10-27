@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "aspects:ordo/holy_light",
+        "aspects:ordo/positive_influence",
+        "aspects:ordo/darkness_damage",
+        "aspects:ordo/night_aversion",
+        "aspects:ordo/holy",
+        "aspects:ordo/lightborn",
+        "aspects:start",
+        "aspects:ordo/ordo_team"
+    ],
+    "icon": {
+        "item": "aspects:ordo_star"
+    },
+    "name": "Ordo",
+    "description": "Tales of old speak of mages and paladins with healing properties and the power of light in their palms, besting their foes and aiding allies in need."
+}
