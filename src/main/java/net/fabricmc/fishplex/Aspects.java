@@ -3,8 +3,9 @@ package net.fabricmc.fishplex;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -23,11 +24,12 @@ public class Aspects implements ModInitializer {
  
 		@Override
 		public void onInitialize() {
-			Registry.register(Registry.ITEM, new Identifier("aspects", "anemo_feather"), ANEMO_FEATHER);
-			Registry.register(Registry.ITEM, new Identifier("aspects", "pyro_fire"), PYRO_FIRE);
-			Registry.register(Registry.ITEM, new Identifier("aspects", "hydro_kelp"), HYDRO_KELP);
-			Registry.register(Registry.ITEM, new Identifier("aspects", "geo_diamond"), GEO_DIAMOND);
-			Registry.register(Registry.ITEM, new Identifier("aspects", "ordo_star"), ORDO_STAR);
-			Registry.register(Registry.ITEM, new Identifier("aspects", "perditio_bone"), PERDITIO_BONE);
+			Registry.register(Registries.ITEM, new Identifier("aspects", "anemo_feather"), ANEMO_FEATHER);
+			Registry.register(Registries.ITEM, new Identifier("aspects", "pyro_fire"), PYRO_FIRE);
+			Registry.register(Registries.ITEM, new Identifier("aspects", "hydro_kelp"), HYDRO_KELP);
+			Registry.register(Registries.ITEM, new Identifier("aspects", "geo_diamond"), GEO_DIAMOND);
+			Registry.register(Registries.ITEM, new Identifier("aspects", "ordo_star"), ORDO_STAR);
+			Registry.register(Registries.ITEM, new Identifier("aspects", "perditio_bone"), PERDITIO_BONE);
+
 	}
 }
