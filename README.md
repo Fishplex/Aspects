@@ -1,7 +1,7 @@
 ## Introduction
 
 Aspects is an element-based Origins addon, meaning it expands the functions and features of the Origins mod created by Apace100.
-Thank you to [AbyssDweller](https://github.com/AbyssDweller) and Perseus#0745 on Discord for help with fixing issues. :)
+Thank you to [Lazul1ne](https://github.com/lazuline) and perseus_fallen on Discord for help with fixing issues. :)
 
 ## Requirements
 
