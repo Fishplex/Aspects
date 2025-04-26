@@ -4,72 +4,72 @@
         {
             "condition": {
                 "type": "origins:origin",
-                "origin": "aspects:pyro_layers/pyro",
+                "origin": "aspects:pyro",
                 "layer": "aspects:elements"
             },
             "origins": [
-                "aspects:pyro_layers/magmus",
-                "aspects:pyro_layers/ignis",
+                "aspects:pyro/magmus",
+                "aspects:pyro/ignis",
                 "aspects:imp"
             ]
         },
         {
             "condition": {
                 "type": "origins:origin",
-                "origin": "aspects:hydro_layers/hydro",
+                "origin": "aspects:hydro",
                 "layer": "aspects:elements"
             },
             "origins": [
-                "aspects:hydro_layers/cryo",
+                "aspects:hydro/cryo",
                 "aspects:imp"
             ]
         },
         {
             "condition": {
                 "type":"origins:origin",
-                "origin":"aspects:anemo_layers/anemo",
+                "origin":"aspects:anemo",
                 "layer":"aspects:elements"
             },
             "origins": [
-                "aspects:anemo_layers/tempus",
-                "aspects:anemo_layers/avis",
+                "aspects:anemo/tempus",
+                "aspects:anemo/avis",
                 "aspects:imp"
             ]
+        },
+        {
+            "condition": {
+                "type":"origins:origin",
+                "origin":"aspects:geo",
+                "layer":"aspects:elements"
             },
-            {
-                "condition": {
-                    "type":"origins:origin",
-                    "origin":"aspects:geo_layers/geo",
-                    "layer":"aspects:elements"
-                },
-                "origins": [
-                    "aspects:geo_layers/dendro",
-                    "aspects:imp"
-                ]
-                },
-                {
-                    "condition": {
-                        "type":"origins:origin",
-                        "origin":"aspects:perditio_layers/perditio",
-                        "layer":"aspects:elements"
-                    },
-                    "origins": [
-                        "aspects:perditio_layers/luna",
-                        "aspects:imp"
-                    ]
-                    },
-                    {
-                        "condition": {
-                            "type":"origins:origin",
-                            "origin":"aspects:ordo_layers/ordo",
-                            "layer":"aspects:elements"
-                        },
-                        "origins": [
-                            "aspects:ordo_layers/solus",
-                            "aspects:imp"
-                        ]
-                        }
-            ],
+            "origins": [
+                "aspects:geo/dendro",
+                "aspects:imp"
+            ]
+        },
+        {
+            "condition": {
+                "type":"origins:origin",
+                "origin":"aspects:perditio",
+                "layer":"aspects:elements"
+            },
+            "origins": [
+                "aspects:perditio/luna",
+                "aspects:imp"
+            ]
+        },
+        {
+            "condition": {
+                "type":"origins:origin",
+                "origin":"aspects:ordo",
+                "layer":"aspects:elements"
+            },
+            "origins": [
+                "aspects:ordo/solus",
+                "aspects:imp"
+            ]
+        }
+    ],
 
     "name": "Type",
     "replace": true
